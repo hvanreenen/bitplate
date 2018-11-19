@@ -1,2 +1,5 @@
 # bitplate
-BitPlate CMS - ASP.NET / jquery CMS
+Een CMS in ASP.NET / jquery
+
+
+
