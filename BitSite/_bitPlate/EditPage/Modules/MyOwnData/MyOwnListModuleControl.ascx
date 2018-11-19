@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MyOwnListModuleControl.ascx.cs" Inherits="BitSite._bitPlate._bitModules.MyOwnData.MyOwnListModuleControl" %>
+<asp:DataList ID="DataList" runat="server"></asp:DataList>

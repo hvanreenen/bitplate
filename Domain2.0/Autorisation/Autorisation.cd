@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BitPlate.Domain.Autorisation.Company">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAAACAAAAQIBAAAADAAAAIAIMACAIAIAAAAAAE=</HashCode>
+      <FileName>Autorisation\Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Autorisation.Functionality">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAEAQAAQAAAAAACAAABAAAAAAAA=</HashCode>
+      <FileName>Autorisation\Functionality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Autorisation.License">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAkACAAAAAAAAAAAAgAAAKIAAAgAAAAIAAAAACQAA=</HashCode>
+      <FileName>Autorisation\License.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Autorisation.LicenseSite">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAaAAAAgAAAAAAAEAAAACAAAAAACAAA=</HashCode>
+      <FileName>Autorisation\LicenseSite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Autorisation.User">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BitPlate.Domain.Autorisation.User.SexeEnum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Autorisation\User.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACABQIAAAKAA4ASIAAIQACQAAgMACAACFJAwgAAACQA=</HashCode>
+      <FileName>Autorisation\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Autorisation.UserGroup">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAgAAAAAAAAAAAAAAAAIAAAAAIAAAAEAA=</HashCode>
+      <FileName>Autorisation\UserGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BitPlate.Domain.Autorisation.FunctionalityEnum" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAgAACAAAAAAACEAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Autorisation\Functionality.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BitPlate.Domain.Autorisation.SuperUserTypeEnum">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Autorisation\User.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

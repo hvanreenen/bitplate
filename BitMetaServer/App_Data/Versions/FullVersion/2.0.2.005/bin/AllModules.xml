@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfModuleDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleDefinition>
+    <FriendlyName>Contactformulier Module</FriendlyName>
+    <ModuleType>ContactFormModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.ContactForm.ContactFormModule</ModuleClass>
+    <MenuFolder>General</MenuFolder>
+    <MenuName>Contactformulier</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <!-- ZOEKEN -->
+  <ModuleDefinition>
+    <FriendlyName>Zoek Module</FriendlyName>
+    <ModuleType>SearchModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Search.SearchModule</ModuleClass>
+    <MenuFolder>General</MenuFolder>
+    <MenuName>Zoek</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Zoekresultaten Module</FriendlyName>
+    <ModuleType>SearchResultsModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Search.SearchResultsModule</ModuleClass>
+    <MenuFolder>General</MenuFolder>
+    <MenuName>Zoekresultaten</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+
+  <!---DATA MODULES-->
+  <ModuleDefinition>
+    <FriendlyName>Groepen Module</FriendlyName>
+    <ModuleType>GroupListModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.GroupListModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>Groepenlijst</MenuName>
+    <NewsletterProof>true</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Groepdetails Module</FriendlyName>
+    <ModuleType>GroupDetailsModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.GroupDetailsModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>Groepdetails</MenuName>
+    <NewsletterProof>true</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Items Module</FriendlyName>
+    <ModuleType>ItemListModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.ItemListModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>Itemslijst</MenuName>
+    <NewsletterProof>true</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Itemdetails Module</FriendlyName>
+    <ModuleType>ItemDetailsModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.ItemDetailsModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>Itemdetails</MenuName>
+    <NewsletterProof>true</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Tree Module</FriendlyName>
+    <ModuleType>TreeViewModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.TreeViewModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>Treeview</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Breadcrumb Module</FriendlyName>
+    <ModuleType>BreadCrumbModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.DataBreadCrumbModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>Breadcrumb</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Googlemaps Module</FriendlyName>
+    <ModuleType>GoogleMapsModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.GoogleMapsModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>Googlemaps</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Filter Module</FriendlyName>
+    <ModuleType>FilterModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.FilterModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>Filter</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+    <ModuleDefinition>
+    <FriendlyName>ItemInvoer Module</FriendlyName>
+    <ModuleType>ItemInputModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Data.ItemInputModule</ModuleClass>
+    <MenuFolder>Data</MenuFolder>
+    <MenuName>ItemInvoer</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+
+  <!---AUTH MODULES-->
+  <ModuleDefinition>
+    <FriendlyName>Login Module</FriendlyName>
+    <ModuleType>LoginModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Auth.LoginModule</ModuleClass>
+    <MenuFolder>Auth</MenuFolder>
+    <MenuName>Inloggen</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Loginstatus Module</FriendlyName>
+    <ModuleType>LoginStatusModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Auth.LoginStatusModule</ModuleClass>
+    <MenuFolder>Auth</MenuFolder>
+    <MenuName>LoginStatus</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Eigen gegevens Module</FriendlyName>
+    <ModuleType>MyProfileModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Auth.MyProfileModule</ModuleClass>
+    <MenuFolder>Auth</MenuFolder>
+    <MenuName>Mijn profiel</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+
+  <ModuleDefinition>
+    <FriendlyName>Nieuwsbrief Subscribe</FriendlyName>
+    <ModuleType>SubscribeModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Newsletter.SubscribeModule</ModuleClass>
+    <MenuFolder>Newsletter</MenuFolder>
+    <MenuName>Subscribe module</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Nieuwsbrief opt-in</FriendlyName>
+    <ModuleType>OptInModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Newsletter.OptInModule</ModuleClass>
+    <MenuFolder>Newsletter</MenuFolder>
+    <MenuName>Opt-In module</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Nieuwsbrief afmelden/wijzigen</FriendlyName>
+    <ModuleType>UnsubscribeModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Newsletter.UnsubscribeModule</ModuleClass>
+    <MenuFolder>Newsletter</MenuFolder>
+    <MenuName>Unsubsribe module</MenuName>
+    <NewsletterProof>false</NewsletterProof>
+    <PageProof>true</PageProof>
+  </ModuleDefinition>
+  <ModuleDefinition>
+    <FriendlyName>Nieuwsbrief HTML module</FriendlyName>
+    <ModuleType>NewsletterHtmlModule</ModuleType>
+    <ModuleClass>BitPlate.Domain.Modules.Newsletter.NewsletterHtmlModule</ModuleClass>
+    <MenuFolder>General</MenuFolder>
+    <MenuName>Html</MenuName>
+    <NewsletterProof>true</NewsletterProof>
+    <PageProof>false</PageProof>
+  </ModuleDefinition>
+</ArrayOfModuleDefinition>

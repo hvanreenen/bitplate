@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BitPlate.Domain.Autorisation" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BitPlate.Domain.Autorisation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:52239/Services/UserService.svc?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:52239/Services/UserService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/BitPlate.Domain" />
+  <xs:complexType name="BitplateUser">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseUser">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="IsMultiSiteUser" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsSystemValue" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SiteUrls" nillable="true" type="q1:ArrayOfstring" />
+          <xs:element minOccurs="0" name="Theme" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BitplateUser" nillable="true" type="tns:BitplateUser" />
+  <xs:complexType name="BaseUser">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/BitPlate.Domain" base="q2:BaseDomainObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="BirthDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ForeName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Gender" type="tns:BaseUser.SexeEnum" />
+          <xs:element minOccurs="0" name="MessageHeader" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NamePrefix" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PasswordLastChanged" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Postalcode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Telephone" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BaseUser" nillable="true" type="tns:BaseUser" />
+  <xs:simpleType name="BaseUser.SexeEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Undefined" />
+      <xs:enumeration value="Male" />
+      <xs:enumeration value="Female" />
+      <xs:enumeration value="Company" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="BaseUser.SexeEnum" nillable="true" type="tns:BaseUser.SexeEnum" />
+  <xs:complexType name="MultiSiteUser">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseUser">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="IsAdmin" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsMultiSiteUser" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsSystemValue" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TempLoginKey" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TempLoginKeyCreateDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Theme" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MultiSiteUser" nillable="true" type="tns:MultiSiteUser" />
+</xs:schema>

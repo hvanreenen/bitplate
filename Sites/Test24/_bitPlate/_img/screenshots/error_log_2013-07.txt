@@ -1,0 +1,1332 @@
+10-07-2013 14:32:21: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1212a653-c1fb-4015-be18-6e9c4a9bb2bc.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 14:32:21: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 14:32:21: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:10:05: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1212a653-c1fb-4015-be18-6e9c4a9bb2bc.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:10:05: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:10:05: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:10:05: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:10:05: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:10:05: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:11:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1212a653-c1fb-4015-be18-6e9c4a9bb2bc.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:11:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:11:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:11:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:19:00: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:19:00: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:19:00: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:19:00: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 15:19:00: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:09:17: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:09:17: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:09:17: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:09:17: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:09:17: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:09:17: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:28:57: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:28:57: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:28:57: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:28:57: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:28:57: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:15: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:15: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:15: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:15: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:15: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:35: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:35: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:35: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+10-07-2013 16:29:35: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 11:05:54: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 11:05:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 11:05:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 11:05:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 11:43:32: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 11:43:32: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 11:43:32: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:04:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:04:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:04:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:04:55: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:45:03: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:45:03: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:45:03: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:45:04: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:47:53: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:47:53: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:47:53: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:47:53: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:51:44: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:52:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:52:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:52:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:52:52: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:52:52: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:52:52: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:53:11: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:53:11: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:53:11: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:53:11: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:53:11: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:59:58: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:59:58: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:59:58: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:59:58: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 14:59:58: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:00:06: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:00:39: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:00:39: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:00:39: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:00:39: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:00:39: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:00:39: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:46:29: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:46:29: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 15:46:29: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:28:09: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:28:09: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:28:09: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:28:09: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:28:09: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:40:34: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:40:34: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:40:34: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:40:34: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:40:36: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:45:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_e3b7f983-8ef9-4269-b548-9edc874da818.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:45:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:45:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:45:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:45:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:45:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+11-07-2013 17:45:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a5fa4134-fa59-4587-aad5-be20e9715e78.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 09:43:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1212a653-c1fb-4015-be18-6e9c4a9bb2bc.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 09:43:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_8a544730-9687-4f06-abb1-6ee03cd4b8a4.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 09:43:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a740224c-16ae-4075-84c6-232fb8836c8d.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 09:43:07: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 09:43:08: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 10:12:29: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1bdcc037-fbfb-4e28-aa41-0a6e86861de8.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 10:12:29: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_1212a653-c1fb-4015-be18-6e9c4a9bb2bc.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 10:12:30: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_11119b32-d164-4cd2-ba77-54a656bf8980.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 10:12:30: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_a0ee69c4-3559-49a7-b380-86999b52b376.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+12-07-2013 10:12:30: 
+MESSAGE: Bestand bestaat niet.
+URL: /_bitplate/_img/screenshots/template_269774c5-402c-491a-85d4-03ff7aeb76d2.jpg
+SOURCE: System.Web
+FORM: 
+QUERYSTRING: 
+TARGETSITE: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+STACKTRACE:    bij System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   bij System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   bij System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   bij System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   bij System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

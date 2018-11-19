@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="EventLogService.asmx.cs" Class="BitSite._bitPlate.EventLog.EventLogService" %>

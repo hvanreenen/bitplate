@@ -1,0 +1,863 @@
+﻿@charset "utf-8";
+/*
+-----::: ABCnet.nl (c) 2012 :::-----
+DATE: 19/07/2012
+EDITED: 11/12/2012
+DESCRIPTION: This is the CSS for cms.bitplate.com ---| PAGE EDIT |---
+SECTIONS:	1. containers | 2. sidebar | 3. sidebar icons | 4. bitplate logo | 5. examples
+COLORS: Orange:#fd9417; | Grey:#808285;
+*/
+#bitEditPageMenusWrapper *{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    line-height: normal !important;
+    vertical-align: middle !important;
+    text-align: left !important;
+    text-indent: inherit !important;
+    white-space: normal !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    border-style: none !important;
+}
+/*Letop: popus worden rechtstreeks aan de body toegevogd. Hierdoor nemen ze lay-out van <body> over.
+    Om dit te voorkomen: wordt class in initDialog.js toegevoegd*/
+.bitPopups  * {
+    font-size: 14px !important;
+}
+
+/*
+* ---| 1. TOPBAR |---
+*/
+#divWrapperMainMenu * {
+    margin:0;
+     color: black  !important;
+    /* color: #000 !important; */
+}
+/*
+* ---| 2. SIDEBAR |---
+*/
+#bitSideBar {
+    position: fixed;
+    top: 27px;
+    left: 0px;
+    background: url(../images/BPCMS_sidebar.png) repeat-y;
+    width: 50px;
+    height: 100%;
+    box-shadow: inset -4px 0 10px rgba(0, 0, 0, 0.4);
+    z-index: 100;
+}
+
+#bitSideBar * {
+	margin:0;
+	padding:0;
+    color: white  !important;
+}
+
+#bitSideBar hr {
+    border: 0;
+    border-top: 1px solid #55698a;
+    border-bottom: 1px solid #9fbce4;
+    margin: 10px 0px;
+}
+
+#bitSideBar .bitSideBarText {
+    display: none;
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #fff;
+    margin: 0px 0px 0px 5px;
+}
+
+#bitSideBar:hover .bitSideBarText {
+    display: inline-block;
+}
+
+#bitSideBar:hover .bitSideBarLock {
+    display: inline-block;
+}
+
+#bitSideBar:hover #bitplateLogo {
+    display: inline-block;
+}
+
+#imgBitPlateDealer {
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+.bitSideBarGroup {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 1px 12px;
+}
+
+.bitSideBarGroup .bitSideBarText {
+    font: 700 12px Verdana, Geneva, sans-serif !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+#bitplateULDealer {
+    margin: 13px 0px 0px 0px;
+}
+
+#bitSideBar ul {
+    list-style-type: none;
+}
+
+#bitSideBar ul li {
+    padding: 0px 0px 0px 12px;
+}
+
+#bitSideBar ul li a {
+    padding: 4px;
+    width: 40px; /*40px*/
+    display: inline-block;
+    overflow: hidden;
+}
+
+#bitSideBar ul li:hover a {
+    background: #d3dae6;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 3px !important;
+    border-radius: 2px;
+    border: solid 1px #5d3403;
+}
+
+.bitLiNoMenu:hover a {
+    background: #d3dae6 !important;
+    border-radius: 2px;
+    border: solid 1px #5d3403;
+    margin: 0px 0px 0px -1px;
+}
+
+.bitLiNoMenu:hover .bitSideBarText {
+    color: #000 !important;
+}
+#bitplateULDealer .bitLiNoMenu:hover .bitSideBarText {
+    color: #fff !important;
+}
+/* submenu */
+#bitSideBar ul li ul {
+    /*background: #55698a;*/
+    background: url(../images/BPCMS_sidebar.png) repeat-y;
+    display: none;
+    position: absolute;
+    left: 166px;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+    width:144px !important;
+}
+
+#bitSideBar ul li ul li {
+    padding: 2px;
+}
+
+#bitSideBar ul li ul li a, #bitSideBar ul li ul li div {
+    background: none !important;
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #fff;
+    border: solid 1px #3b4045;
+    border-radius: 0px 3px 3px 0px !important;
+    box-shadow: none !important;
+    min-height: 20px;
+    line-height:20px;
+}
+
+.moduleToDrag {
+    width:130px;
+    cursor: move;
+    padding: 2px;
+}
+#bitSideBar ul li ul li a:hover, #bitSideBar ul li ul li div:hover {
+    background: #d3dae6 !important;
+    margin: 0;
+    border-radius: 0px 3px 3px 0px !important;
+    border-bottom: inset 1px #3b4045;
+    color: #000 !important;
+}
+
+#bitSideBar ul li:hover ul {
+    display: inline-block;
+}
+#bitMenuPages {
+    position: relative;
+    overflow-x:hidden !important;
+    overflow:scroll;
+    height:500px;
+    width:162px;
+}
+/* .submenu */
+/* locked sideBar */
+.bitSideBarLockedSecure {
+    width: 166px !important;
+}
+.bitSideBarLockedSecure .bitSideBarText {
+    display:inline-block !important;
+    font: 11px Verdana, Geneva, sans-serif;
+    color: #fff;
+    margin: 0px 0px 0px 5px;
+}
+.bitSideBarLockedSecure ul li a {
+    padding: 4px;
+    width: 130px !important; /*40px*/
+    display: inline-block;
+    overflow: hidden;
+}
+.bitSideBarLockedSecure #bitplateLogo {
+    display: inline-block;
+}
+/* .locked sideBar */
+/*
+* ---| 3. sidebar icons |---
+*/
+#bitSideBarIconGeneral {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px 0px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconPreviewPage {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px 0px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconNewsletter {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px 0px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconData {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -38px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconWebshop {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -19px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconLogin {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -57px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconPages {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -76px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconPublishPages {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -95px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconSiteProperties {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -114px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconSiteFileManagement {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -133px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconSiteUsers {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -152px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconDesignTemplates {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -171px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconDesignScripts {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -190px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconCSS {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -209px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+
+#bitSideBarIconConfigPage {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -228px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    vertical-align: text-bottom;
+}
+.bitSideBarLock {
+    position:absolute;
+    right:9px;
+    top:9px;
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -247px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    cursor:pointer;
+    display:none;
+}
+.bitSideBarLocked {
+    background: url(../images/BPCMS_sidebar_icons.png) no-repeat 0px -266px;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    cursor:pointer;
+}
+/* change icons */
+#bitSideBar ul li:hover #bitSideBarIconGeneral {
+    background-position: -19px 0px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconData {
+    background-position: -19px -38px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconWebshop {
+    background-position: -19px -19px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconLogin {
+    background-position: -19px -57px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconPages {
+    background-position: -19px -76px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconPublishPages {
+    background-position: -19px -95px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconSiteProperties {
+    background-position: -19px -114px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconSiteFileManagement {
+    background-position: -19px -133px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconSiteUsers {
+    background-position: -19px -152px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconDesignTemplates {
+    background-position: -19px -171px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconDesignScripts {
+    background-position: -19px -190px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconCSS {
+    background-position: -19px -209px;
+}
+
+#bitSideBar ul li:hover #bitSideBarIconConfigPage {
+    background-position: -19px -228px;
+}
+.bitSideBarLock:hover {
+    background-position: -19px -247px;
+}
+.bitSideBarLocked:hover{
+    background-position: -19px -266px;
+}
+
+#bitSideBar ul li:hover .bitSideBarText {
+    color: #2c3138;
+}
+
+#bitplateLogo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #d3dae6;
+    width: 166px;
+    height: 85px;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+/*
+* ---| 3. MODULES & CONTAINERS |---
+*/
+.bitModule {
+    min-height: 30px;
+    min-width: 100%;
+    border: 1px #000 dotted;
+}
+
+.bitModule:hover {
+    /* background-color: #777;
+    opacity: 0.3;
+    filter: alpha(opacity=70); */
+    background-image: url(../images/moduleHoverShadow.png);
+}
+
+
+
+.bitPopups .buttons {
+    display: none !important; 
+    position: absolute !important; 
+    top: 0px !important; 
+    left: 0px !important; 
+}
+
+
+.ckeditor_area {
+    border: solid 1px #989898;
+    padding: 5px;
+    border-radius: 5px;
+    float: left;
+    width: 79%;
+}
+
+    .ckeditor_area:hover {
+        border: solid 1px #888;
+        box-shadow: 0px 0px 8px #888;
+    }
+
+.bitPopups input[type='submit'], .bitPopups input[type='reset'], .bitPopups button, .bitPopups input[type='button'] {
+    background: #fff;
+    border-top: solid 1px #d9d9d9;
+    border-right: solid 1px #dadada;
+    border-left: solid 1px #dbdbdb;
+    border-bottom: solid 1px #dddddd;
+    color: #6e6e6e;
+    border-radius: 2px;
+    padding: 5px 9px;
+    cursor: pointer;
+    font: 700 11px Arial, Helvetica, sans-serif  !important; 
+}
+
+    .bitPopups input[type='submit']:hover, .bitPopups input[type='reset']:hover, .bitPopups button:hover, .bitPopups input[type='button']:hover {
+        border: solid 1px #c6c6c6;
+        box-shadow: 0px 0px 5px #888;
+        color: #000;
+    }
+
+    .bitPopups input[type='submit']:focus, .bitPopups input[type='reset']:focus, .bitPopups button:focus, .bitPopups input[type='button']:focus {
+        border: solid 1px #333;
+        box-shadow: 0px 0px 5px #888;
+        color: #333;
+    }
+
+    .moduleMoveGrip {
+        background-image: url(../images/moduleHoverShadow.png);
+    }
+
+    .bitContainer {
+        border: dotted 2px red;
+        min-height: 20px;
+    }
+
+    .bitContainerPlaceholder {
+    border: solid 1px #CC6600;
+    height: 1.5em;
+    line-height: 1.2em;
+    background: #FFCC00;
+}
+
+    div#bitAjaxLoaderContainer > div
+{
+    display: inline-block;
+}
+
+div#ajaxloaderImage
+{
+    background: url(../images/ajax-loader.gif);
+    height: 16px;
+    width: 16px;
+    float: right;
+}
+
+
+div#bitAjaxLoaderContainer
+{
+    display: none;
+    width: 300px;
+    top: 0px;
+    left: 50%;
+    position: absolute;
+    z-index: 99999;
+    background:rgba(0,0,0, 0.8);
+    color:#fff;
+    border: 2px solid #fff;
+    padding:9px;
+    border-top: none !important;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight:700;
+    margin: 0 0 0 -150px;
+}
+
+
+/* ============================================*/
+
+.bitPopups input[type='text'], .bitPopups input[type='password'], .bitPopups input[type='date'], .bitPopups .imgContainer, .wysiwygEditor{
+	background:#fff;
+	width:200px;
+	border-top:solid 1px #c0c0c0;
+	border-right:solid 1px #d9d9d9;
+	border-left:solid 1px #d9d9d9;
+	border-bottom:solid 1px #d9d9d9;
+	color:#6e6e6e;
+	border-radius: 2px;
+	padding:5px 9px;
+	text-overflow:ellipsis;
+}
+.wysiwygEditor {
+    width:800px !important;
+    min-height:60px !important;
+}
+.bitPopups input[type='date'] {
+    width:130px !important;
+}
+.bitPopups input[type='text'][readonly='readonly'] {
+    border: none;
+}
+.bitPopups input[type='text']:hover, .bitPopups input[type='password']:hover, .bitPopups input[type='date']:hover, .bitPopups .imgContainer:hover{
+	border-top:solid 1px #a0a0a0;
+	border-right:solid 1px #b9b9b9;
+	border-left:solid 1px #b9b9b9;
+	border-bottom:solid 1px #b9b9b9;
+	color:#000;
+}
+.bitPopups input[type='text']:focus, input[type='password']:focus, .bitPopups input[type='date']:focus, .wysiwygEditor:focus{
+	border: solid 1px #333;
+	box-shadow: 0px 0px 5px #888;
+	color:#000;
+}
+.bitPopups input[type='submit'], .bitPopups input[type='reset'], .bitPopups button, .bitPopups input[type='button']{
+	background:#fff;
+	border-top:solid 1px #d9d9d9;
+	border-right:solid 1px #dadada;
+	border-left:solid 1px #dbdbdb;
+	border-bottom:solid 1px #dddddd;
+	color:#6e6e6e;
+	border-radius: 2px;
+	padding:5px 9px;
+	cursor:pointer;
+	font:700 11px Arial, Helvetica, sans-serif;
+}
+.bitPopups input[type='submit']:hover, .bitPopups input[type='reset']:hover, .bitPopups button:hover, .bitPopups input[type='button']:hover{
+	border:solid 1px #c6c6c6;
+	color:#000;
+}
+.bitPopups input[type='submit']:focus, i.bitPopups nput[type='reset']:focus, button:focus, .bitPopups input[type='button']:focus{
+	border: solid 1px #333;
+	box-shadow: 0px 0px 5px #888;
+	color:#333;
+}
+/*
+* ---| 2. select, textarea |---
+*/
+.bitPopups select{
+	background:#fff;
+	width:220px;
+	border-top:solid 1px #c0c0c0;
+	border-right:solid 1px #d9d9d9;
+	border-left:solid 1px #d9d9d9;
+	border-bottom:solid 1px #d9d9d9;
+	color:#6e6e6e;
+	border-radius: 2px;
+	padding:4px 9px;
+}
+.bitPopups select.small{
+	width:80px;
+}
+.bitPopups select:hover{
+	border-top:solid 1px #a0a0a0;
+	border-right:solid 1px #b9b9b9;
+	border-left:solid 1px #b9b9b9;
+	border-bottom:solid 1px #b9b9b9;
+	color:#000;
+}
+.bitPopups select:focus{
+	border: solid 1px #333;
+	box-shadow: 0px 0px 5px #888;
+	color:#333;
+}
+.bitPopups .validationMsg{
+	text-decoration:blink;
+	color:red;
+}
+.bitPopups textarea{
+	position:relative;
+	background:#fff;
+	width:200px;
+	height:10em;
+	border-top:solid 1px #c0c0c0;
+	border-right:solid 1px #d9d9d9;
+	border-left:solid 1px #d9d9d9;
+	border-bottom:solid 1px #d9d9d9;
+	color:#6e6e6e;
+	border-radius: 2px;
+	padding:5px 9px;
+}
+.bitPopups textarea:hover{
+	border-top:solid 1px #a0a0a0;
+	border-right:solid 1px #b9b9b9;
+	border-left:solid 1px #b9b9b9;
+	border-bottom:solid 1px #b9b9b9;
+	color:#000;
+}
+.bitPopups textarea:focus{
+	border: solid 1px #333;
+	box-shadow: 0px 0px 5px #888;
+	color:#333;
+}
+.bitTextArea{
+	width:100%;
+}
+.bitTextareaLarge{
+	height:900px;
+}
+a.bitTextareaEnlargeButton:link{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaEnlargeButton:visited{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaEnlargeButton:hover{
+	background-position:-21px 0px;
+}
+a.bitTextareaEnlargeButton:active{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaShrinkButton:link{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat 0px -21px;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaShrinkButton:visited{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat 0px -21px;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaShrinkButton:hover{
+	background-position:-21px -21px;
+}
+a.bitTextareaShrinkButton:active{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat 0px -21px;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+/*
+* ---| 3. input[type='checkbox'], input[type='radio']
+*/
+/* checkboxes */
+
+.bitPopups input[type='checkbox']{
+	margin:5px !important;
+	/*display:none;*/
+}/*
+.checkbox{
+	position:relative;
+	background:url(../images/checkboxes_3states.png) no-repeat;
+	width:100%;
+	display:block;
+	cursor:pointer;
+	color:#000;
+}
+.checkbox label{
+	position:absolute;
+	left:20px;
+	cursor:pointer;
+}
+.checked{
+	background:url(../images/checkboxes_3states.png) no-repeat -30px;
+	width:15px;
+	height:14px;
+	line-height:14px;
+	display:block;
+}
+.checked:hover{
+	background-position: right;
+}
+.unchecked{
+	background:url(../images/checkboxes_3states.png) no-repeat;
+	width:15px;
+	height:14px;
+	line-height:14px;
+	display:block;
+}
+.unchecked:hover{
+	backgroun-position: -15px;
+}
+    */
+/* radio button */
+
+.bitPopups input[type='radio']{
+	margin:5px !important;
+	/*display:none;*/
+}
+/*
+.radio{
+	position:relative;
+	background:url(../images/radiobuttons.png) no-repeat;
+	width:100%;
+	display:block;
+	cursor:pointer;
+	color:#000;
+}
+.radio label, .runchecked label{
+	position:relative; /* stond op absolute maar dan is tekst weg 
+	left:20px;
+	bottom:0px;
+	float:left;
+	width:200px;
+	cursor:pointer;
+    display:inline-block;
+}*/
+.rchecked{
+	background:url(../images/radiobuttons.png) no-repeat -30px !important;
+	width:15px;
+	height:14px;
+	display:block;
+}
+.rchecked:hover{
+	background-position: right !important;
+}
+.runchecked{
+	background:url(../images/radiobuttons.png) no-repeat;
+	width:15px;
+	height:14px;
+	display:inline-block;
+}
+.runchecked:hover{
+	background-position: -15px;
+}
+
+/* Toegevoegd door hj*/
+.imgContainer {
+    
+    text-align: center;                  
+    float: left;
+        margin-right:10px;
+}
+
+.imgContainer span{
+    background-color: #c0c0c0;
+    color: white;
+    font-weight: bold;
+    text-align: center;                  
+    width: 200px;
+    display: inline-block;
+    height: 20px;
+}
+
+/*toegevoegd door HJ: mag maar worden aangepast */
+.bitPopups fieldset {
+    margin-top: 20px;
+    padding:10px;
+}
+.bitPopups legend {
+    font-size: 14pt;
+    font-weight:bolder;
+    color: #a0a0a0;
+}
+/*voor numerieke textboxes*/
+input.textboxInteger {
+    width: 50px;
+}
+/*
+* ---| 4. Misc. |---
+*/
+#bitSpanHidden {
+    display: none;
+}
+
+
+

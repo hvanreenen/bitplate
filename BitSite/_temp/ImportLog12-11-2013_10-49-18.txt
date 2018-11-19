@@ -1,0 +1,10 @@
+Geimporteerd: NieuwsbriefGebruikers.csv op 12-11-2013
+ImportTemplate gebruikt: 123
+
+De volgende regels zijn niet geimporteerd vanwege fouten:
+
+FOUT in regel 1/3 :  = SYSTEEM FOUT: Unknown column 'RegistrationTypeString' in 'field list'.
+FOUT in regel 2/3 :  = SYSTEEM FOUT: Unknown column 'RegistrationTypeString' in 'field list'.
+FOUT in regel 3/3 :  = SYSTEEM FOUT: Unknown column 'RegistrationTypeString' in 'field list'.
+
+Van de 3 zijn er 0 gelukt en 3 mislukt.

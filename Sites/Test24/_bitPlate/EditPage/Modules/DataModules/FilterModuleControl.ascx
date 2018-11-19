@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="FilterModuleControl.ascx.cs" Inherits="BitSite._bitPlate.EditPage.Modules.DataModules.FilterModuleControl" %>

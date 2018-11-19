@@ -1,0 +1,110 @@
+﻿@charset "utf-8";
+/*
+-----::: ABCnet.nl (c) 2012 :::-----
+DATE: 20/08/2012
+EDITED: 20/08/2012
+DESCRIPTION: This is the CSS for cms.bitplate.com ---| main.css |---
+SECTIONS:	1. body reset values
+*/
+/*
+* ---| 1. body reset values |---
+*/
+body{
+	background:#fff;
+	overflow-x:hidden;
+	-ms-overflow-x: hidden;
+	font:12px "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+	color:#000;
+}
+*{
+	margin:0;
+	padding:0;
+}
+a {
+    outline: none;
+}
+a:link{
+	text-decoration:none;
+    color:#000;
+}
+a:visited{
+	text-decoration:none;
+    color:#000;
+}
+a:hover{
+	text-decoration:none;
+    color:#666;
+}
+a:active{
+	text-decoration:none;
+    color:#000;
+}
+::selection{
+	background:#ffb7b7;
+}
+::-moz-selection{
+	background:#ffb7b7;
+}
+img{
+	border:none;
+}
+.clr_bth{
+	clear:both;
+}
+#divBitEditPageBody ul{
+    padding:12px 36px;
+}
+
+div#bitAjaxLoaderContainer
+{
+    display: none;
+    width: 300px;
+    top: 0px;
+    left: 50%;
+    position: absolute;
+    z-index: 999999999999;
+    background:rgba(0,0,0, 0.8);
+    color:#fff;
+    border: 2px solid #fff;
+    padding:9px;
+    border-top: none !important;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight:700;
+    margin: 0 0 0 -150px;
+}
+
+div#bitAjaxLoaderContainer > div
+{
+    display: inline-block;
+}
+
+div#ajaxloaderImage
+{
+    background: url(../images/ajax-loader.gif);
+    height: 16px;
+    width: 16px;
+    float: right;
+}
+
+.hidden{
+	display:none;
+}
+.ui-bitTooltip{
+	position:absolute;
+	top:90px;
+    left:620px;
+	background:#fff;
+	color:#333;
+	line-height:125%;
+	padding:10px;
+	min-height:5px;
+	border:solid 1px #ccc;
+	border-radius:10px;
+	box-shadow:0px 0px 8px #888;
+    text-indent:0px !important;
+}

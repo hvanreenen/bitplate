@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1178C629-1B11-45DD-A16D-C011942487D4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BitMetaServer20</RootNamespace>
+    <AssemblyName>BitMetaServer20</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\References\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\!Other Files\Lib\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Versions\FullVersion\2.0.2.005\DB\CREATETABLES.sql" />
+    <Content Include="App_Data\Versions\FullVersion\2.0.2.005\DB\INSERTDEFAULTS.sql" />
+    <Content Include="App_Data\Versions\README.txt" />
+    <Content Include="Auth\AuthService.aspx" />
+    <Content Include="Auth\BITSERVERUSERS.js" />
+    <Content Include="Auth\BITMULTISITEUSERS.js" />
+    <Content Include="Auth\MultiSiteUsers.aspx" />
+    <Content Include="Auth\ServerUsers.aspx" />
+    <Content Include="BackupRestore\BITRESTORE.js" />
+    <Content Include="BackupRestore\Restore.aspx" />
+    <Content Include="BackupRestore\RestoreService.asmx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Dialogs\ConfigCurrentUser.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Licenses\LicenseService.aspx" />
+    <Content Include="Licenses\BITCOMPANIES.js" />
+    <Content Include="Licenses\BITLICENSES.js" />
+    <Content Include="Licenses\BITRESELLERS.js" />
+    <Content Include="Licenses\Companies.aspx" />
+    <Content Include="Licenses\Licenses.aspx" />
+    <Content Include="Licenses\Resellers.aspx" />
+    <Content Include="Login.aspx" />
+    <None Include="Service References\BitplateBackupServiceReference\backup.disco" />
+    <None Include="Service References\BitplateBackupServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\BitplateBackupServiceReference\configuration.svcinfo" />
+    <None Include="Service References\BitplateBackupServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="News\BITNEWS.js" />
+    <Content Include="News\News.aspx" />
+    <Content Include="News\NewsService.asmx" />
+    <Content Include="Services\LicService.svc" />
+    <Content Include="Services\UserService.svc" />
+    <Content Include="Updates\BITUPDATES.js" />
+    <Content Include="Updates\Updates.aspx" />
+    <Content Include="Updates\UpdateService.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_img\ResellerLogos\ReadMe.txt" />
+    <Content Include="_js\BITAJAX.js" />
+    <Content Include="_js\BITAUTH.js" />
+    <Content Include="_js\BITDATACOLLECTIONDATA.js" />
+    <Content Include="_js\BITDATACOLLECTIONS_OLD.js" />
+    <Content Include="_js\BITFILEMANAGEMENT_Emiel.js" />
+    <Content Include="_js\BITFILEMANAGEMENT_org.js" />
+    <Content Include="_js\BITUTILS.js" />
+    <Content Include="_js\jquery-1.8.2.js" />
+    <Content Include="_js\jquery-1.8.2.min.js" />
+    <Content Include="_js\jquery-ui-1.9.1.custom.js" />
+    <Content Include="_js\jquery-ui-1.9.2.custom.min.js" />
+    <Content Include="_js\jQuery.bitHelp.js" />
+    <Content Include="_js\jQuery.clickToScroll.js" />
+    <Content Include="_js\jQuery.disable.js" />
+    <Content Include="_js\JSON.js" />
+    <Content Include="_js\plugins\chosen\chosen-sprite%402x.png" />
+    <Content Include="_js\plugins\chosen\chosen-sprite.png" />
+    <Content Include="_js\plugins\chosen\chosen.css" />
+    <Content Include="_js\plugins\chosen\chosen.jquery.js" />
+    <Content Include="_js\plugins\chosen\chosen.jquery.min.js" />
+    <Content Include="_js\plugins\chosen\chosen.proto.js" />
+    <Content Include="_js\plugins\chosen\chosen.proto.min.js" />
+    <Content Include="_js\plugins\jquery-ui-timepicker-addon.js" />
+    <Content Include="_js\plugins\jQuery.bitFancySearchBox.js" />
+    <Content Include="_js\plugins\jQuery.bPlateMenu.js" />
+    <Content Include="_js\plugins\jQuery.change.css.js" />
+    <Content Include="_js\plugins\jquery.iframe-post-form.js" />
+    <Content Include="_js\plugins\jquery.mjs.nestedSortable.js" />
+    <Content Include="_js\plugins\jQuery.placeholder.js" />
+    <Content Include="_js\plugins\jQuery.sort.list.js" />
+    <Content Include="_js\plugins\jQuery.style.checkbox.js" />
+    <Content Include="_js\plugins\jQuery.switchPanel.js" />
+    <Content Include="_js\plugins\jquery.ui.datepicker-nl.js" />
+    <Content Include="_js\plugins\jQuery.UI.forms.js" />
+    <Content Include="_js\plugins\modernizr.custom.59383.js" />
+    <Content Include="_js\prototypes\centerScreen.js" />
+    <Content Include="_js\prototypes\checkFunctionalityElements.js" />
+    <Content Include="_js\prototypes\contextMenu.js" />
+    <Content Include="_js\prototypes\databind.backup.js" />
+    <Content Include="_js\prototypes\databind.js" />
+    <Content Include="_js\prototypes\date.js" />
+    <Content Include="_js\prototypes\dockable.js" />
+    <Content Include="_js\prototypes\formEnrich.js" />
+    <Content Include="_js\prototypes\gridBuilder.js" />
+    <Content Include="_js\prototypes\helpable.js" />
+    <Content Include="_js\prototypes\initDialog.js" />
+    <Content Include="_js\prototypes\insertAtCaret.js" />
+    <Content Include="_js\prototypes\jq plugin template\jQuery Plugin Template.js" />
+    <Content Include="_js\prototypes\jquery.loadingdots.js" />
+    <Content Include="_js\prototypes\searchable.js" />
+    <Content Include="_js\prototypes\string.js" />
+    <Content Include="_js\prototypes\tabby.js" />
+    <Content Include="_js\prototypes\treeview.js" />
+    <Content Include="_js\prototypes\validation.js" />
+    <Content Include="_js\_bitEditor\BITEDITOR.js" />
+    <Content Include="_js\_bitEditor\CommandManager.js" />
+    <Content Include="_js\_bitEditor\Editor.js" />
+    <Content Include="_js\_bitEditor\EditorIFrame.js" />
+    <Content Include="_js\_bitEditor\img\silver_strip.png" />
+    <Content Include="_js\_bitEditor\Menu.js" />
+    <Content Include="_js\_bitEditor\MenuItem.js" />
+    <Content Include="_js\_bitEditor\Popup.js" />
+    <Content Include="_js\_bitEditor\Selection.js" />
+    <Content Include="_js\_bitEditor\Statusbar.js" />
+    <Content Include="_js\_bitEditor\Toolbar.js" />
+    <Content Include="_js\_bitEditor\ToolbarButton.js" />
+    <Content Include="_js\_bitEditor\ToolbarDropDown.js" />
+    <Content Include="_js\_bitEditor\ToolbarSeperator.js" />
+    <Content Include="_js\_bitEditor\utils\HTMLHELPER.js" />
+    <Content Include="_js\_bitEditor\utils\StylesheetParser.js" />
+    <Content Include="_js\_bitModules\plugins\QapTcha\images\bg_draggable_qaptcha.jpg" />
+    <Content Include="_js\_bitModules\plugins\QapTcha\jquery\jquery-ui.js" />
+    <Content Include="_js\_bitModules\plugins\QapTcha\jquery\jquery.js" />
+    <Content Include="_js\_bitModules\plugins\QapTcha\jquery\jquery.ui.touch.js" />
+    <Content Include="_js\_bitModules\plugins\QapTcha\jquery\QapTcha.jquery.css" />
+    <Content Include="_js\_bitModules\plugins\QapTcha\jquery\QapTcha.jquery.js" />
+    <Content Include="_js\_bitModules\plugins\QapTcha\jquery\QapTcha.jquery.min.js" />
+    <Content Include="_themes\bitplate\css\bitCKEditor.css" />
+    <Content Include="_themes\bitplate\css\bitEditor.css" />
+    <Content Include="_themes\bitplate\css\bitPlateIcons.css" />
+    <Content Include="_themes\bitplate\css\dashboard.css" />
+    <Content Include="_themes\bitplate\css\dataCollectionData.css" />
+    <Content Include="_themes\bitplate\css\EditPageSitebar.css" />
+    <Content Include="_themes\bitplate\css\filemanager.css" />
+    <Content Include="_themes\bitplate\css\form.css" />
+    <Content Include="_themes\bitplate\css\formElements.css" />
+    <Content Include="_themes\bitplate\css\grid.css" />
+    <Content Include="_themes\bitplate\css\languageswitcher.css" />
+    <Content Include="_themes\bitplate\css\login.css" />
+    <Content Include="_themes\bitplate\css\main.css" />
+    <Content Include="_themes\bitplate\css\multiSelect2Boxes.css" />
+    <Content Include="_themes\bitplate\css\newsletterpages.css" />
+    <Content Include="_themes\bitplate\css\pageEdit.css" />
+    <Content Include="_themes\bitplate\css\pageEdit_HJ.css" />
+    <Content Include="_themes\bitplate\css\popup.css" />
+    <Content Include="_themes\bitplate\css\thumbnailer.css" />
+    <Content Include="_themes\bitplate\css\topMenu.css" />
+    <Content Include="_themes\bitplate\css\tree.css" />
+    <Content Include="_themes\bitplate\images\ajax-loader-white.gif" />
+    <Content Include="_themes\bitplate\images\ajax-loader.gif" />
+    <Content Include="_themes\bitplate\images\ajaxLoader.gif" />
+    <Content Include="_themes\bitplate\images\BPCMS_abcnet-logo.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_dashboard_banner.jpg" />
+    <Content Include="_themes\bitplate\images\BPCMS_dashboard_bckbox.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_dashboard_bcktop.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_icons.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_logo.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_messageBoxIcons.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_neutral-texture.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_page-icons.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_popupMaximize.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_sidebar.jpg" />
+    <Content Include="_themes\bitplate\images\BPCMS_sidebar.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_sidebar_icon.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_sidebar_icons.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_sidebar_logo.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_sidebar_menubar.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_sub-ul-hover.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_sub-ul.png" />
+    <Content Include="_themes\bitplate\images\BPCMS_textareaResize.png" />
+    <Content Include="_themes\bitplate\images\checkboxes_3states.png" />
+    <Content Include="_themes\bitplate\images\editorbuttons_silver_strip.png" />
+    <Content Include="_themes\bitplate\images\fileTypes\doc.gif" />
+    <Content Include="_themes\bitplate\images\fileTypes\mp3.gif" />
+    <Content Include="_themes\bitplate\images\fileTypes\pdf.gif" />
+    <Content Include="_themes\bitplate\images\fileTypes\txt.gif" />
+    <Content Include="_themes\bitplate\images\fileTypes\xls.gif" />
+    <Content Include="_themes\bitplate\images\fileTypes\zip.gif" />
+    <Content Include="_themes\bitplate\images\flags.png" />
+    <Content Include="_themes\bitplate\images\item_small.png" />
+    <Content Include="_themes\bitplate\images\moduleBuzyOverlay.png" />
+    <Content Include="_themes\bitplate\images\moduleHoverShadow.png" />
+    <Content Include="_themes\bitplate\images\moduleLoader.gif" />
+    <Content Include="_themes\bitplate\images\radiobuttons.png" />
+    <Content Include="_themes\bitplate\images\reset.png" />
+    <Content Include="_themes\bitplate\images\sample.jpg" />
+    <Content Include="_themes\bitplate\images\trim.png" />
+    <Content Include="_themes\bitplate\images\ul.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_flat_80_000000_40x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_glass_75_596c8c_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-icons_222222_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-icons_454545_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-icons_888888_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\custom-theme\jquery-ui-1.8.22.custom.css" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.8.22\css\ui-lightness\jquery-ui-1.8.22.custom.css" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_flat_80_000000_40x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_glass_75_596c8c_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-icons_222222_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-icons_454545_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-icons_888888_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\jquery-ui-1.9.1.custom.css" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\css\custom-theme\jquery-ui-1.9.1.custom.min.css" />
+    <Content Include="_themes\bitplate\jquery-ui-1.9.1\index.html" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\css\bitTheme.css" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\css\elfinder.min.css" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\css\theme.css" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\arrows-active.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\arrows-normal.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\BPCMS_toolbar.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\crop.gif" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\dialogs.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\icons-big.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\icons-small.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\logo.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\progress.gif" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\quicklook-bg.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\quicklook-icons.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\resize.png" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\spinner-mini.gif" />
+    <Content Include="_themes\bitplate\plugins\elFinder-2.0\img\toolbar.png" />
+    <Content Include="_themes\bitplate\plugins\jbreadcrump\Images\Chevron.gif" />
+    <Content Include="_themes\bitplate\plugins\jbreadcrump\Images\ChevronOverlay.png" />
+    <Content Include="_themes\bitplate\plugins\jbreadcrump\Images\IconHome.gif" />
+    <Content Include="_themes\bitplate\plugins\jbreadcrump\Styles\Base.css" />
+    <Content Include="_themes\bitplate\plugins\jbreadcrump\Styles\BreadCrumb.css" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\apple\bg.jpg" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\apple\d.png" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\apple\dot_for_ie.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\apple\style.css" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\apple\throbber.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\classic\d.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\classic\d.png" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\classic\dot_for_ie.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\classic\style.css" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\classic\throbber.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default-rtl\d.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default-rtl\d.png" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default-rtl\dots.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default-rtl\style.css" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default-rtl\throbber.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default\d.gif" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default\d.png" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default\style.css" />
+    <Content Include="_themes\bitplate\plugins\jsTree\themes\default\throbber.gif" />
+    <Content Include="_masterPages\Details.master" />
+    <None Include="Service References\BitplateBackupServiceReference\backup.wsdl" />
+    <None Include="Service References\BitplateBackupServiceReference\backup.xsd" />
+    <None Include="Service References\BitplateBackupServiceReference\backup1.xsd" />
+    <None Include="Service References\BitplateBackupServiceReference\BackupService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth\AuthService.aspx.cs">
+      <DependentUpon>AuthService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auth\AuthService.aspx.designer.cs">
+      <DependentUpon>AuthService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auth\MultiSiteUsers.aspx.cs">
+      <DependentUpon>MultiSiteUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auth\MultiSiteUsers.aspx.designer.cs">
+      <DependentUpon>MultiSiteUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auth\ServerUsers.aspx.cs">
+      <DependentUpon>ServerUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auth\ServerUsers.aspx.designer.cs">
+      <DependentUpon>ServerUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BackupRestore\Restore.aspx.cs">
+      <DependentUpon>Restore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BackupRestore\Restore.aspx.designer.cs">
+      <DependentUpon>Restore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BackupRestore\RestoreService.asmx.cs">
+      <DependentUpon>RestoreService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ConfigCurrentUser.aspx.cs">
+      <DependentUpon>ConfigCurrentUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ConfigCurrentUser.aspx.designer.cs">
+      <DependentUpon>ConfigCurrentUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Licenses\LicenseService.aspx.cs">
+      <DependentUpon>LicenseService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Licenses\LicenseService.aspx.designer.cs">
+      <DependentUpon>LicenseService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Licenses\Companies.aspx.cs">
+      <DependentUpon>Companies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Licenses\Companies.aspx.designer.cs">
+      <DependentUpon>Companies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Licenses\Licenses.aspx.cs">
+      <DependentUpon>Licenses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Licenses\Licenses.aspx.designer.cs">
+      <DependentUpon>Licenses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Licenses\Resellers.aspx.cs">
+      <DependentUpon>Resellers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Licenses\Resellers.aspx.designer.cs">
+      <DependentUpon>Resellers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News\News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News\News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News\NewsService.asmx.cs">
+      <DependentUpon>NewsService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\BitplateBackupServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Services\BaseMetaService.cs" />
+    <Compile Include="Services\ILicService.cs" />
+    <Compile Include="Services\IUserService.cs" />
+    <Compile Include="Services\LicService.svc.cs">
+      <DependentUpon>LicService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Services\UserService.svc.cs">
+      <DependentUpon>UserService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Updates\Updates.aspx.cs">
+      <DependentUpon>Updates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Updates\Updates.aspx.designer.cs">
+      <DependentUpon>Updates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Updates\UpdateService.aspx.cs">
+      <DependentUpon>UpdateService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Updates\UpdateService.aspx.designer.cs">
+      <DependentUpon>UpdateService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_bitSystem\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_bitSystem\BaseService.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_bitSystem\BitBundler.cs" />
+    <Compile Include="_bitSystem\SessionObject.cs" />
+    <Compile Include="_bitSystem\TreeGridItem.cs" />
+    <Compile Include="_masterPages\Dashboard.master.cs">
+      <DependentUpon>Dashboard.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_masterPages\Dashboard.master.designer.cs">
+      <DependentUpon>Dashboard.master</DependentUpon>
+    </Compile>
+    <Compile Include="_masterPages\Details.master.cs">
+      <DependentUpon>Details.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_masterPages\Details.master.designer.cs">
+      <DependentUpon>Details.master</DependentUpon>
+    </Compile>
+    <Compile Include="_masterPages\Grids.master.cs">
+      <DependentUpon>Grids.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_masterPages\Grids.master.designer.cs">
+      <DependentUpon>Grids.master</DependentUpon>
+    </Compile>
+    <Compile Include="_masterPages\Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_masterPages\Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\EmailLogging\" />
+    <Folder Include="App_Data\Logs\" />
+    <Folder Include="_bitSystem\Translations\DE\" />
+    <Folder Include="_bitSystem\Translations\EN\" />
+    <Folder Include="_bitSystem\Translations\NL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain2.0\Domain2.0.csproj">
+      <Project>{26bc0100-3a49-485d-9d2d-8ebf0545b050}</Project>
+      <Name>Domain2.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HJORM\HJORM.csproj">
+      <Project>{c3376e30-a549-4842-a076-2729243c3d3d}</Project>
+      <Name>HJORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_licenseTypeDefaults\BitnewsletterCorporate.lic" />
+    <Content Include="_licenseTypeDefaults\BitnewsletterCustom.lic" />
+    <Content Include="_licenseTypeDefaults\BitnewsletterLite.lic" />
+    <Content Include="_licenseTypeDefaults\BitplateCorporate.lic" />
+    <Content Include="_licenseTypeDefaults\BitplateCustom.lic" />
+    <Content Include="_licenseTypeDefaults\BitplateEnterprise.lic" />
+    <Content Include="_licenseTypeDefaults\BitplateLite.lic" />
+    <Content Include="_licenseTypeDefaults\BitplateStandard.lic" />
+    <Content Include="_licenseTypeDefaults\BitshopLite.lic" />
+    <Content Include="_licenseTypeDefaults\defaultTemplate.lic" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\MetaServer.pubxml" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
+    <Content Include="_js\_bitModules\plugins\QapTcha\README.md" />
+    <Content Include="_masterPages\Dashboard.master" />
+    <Content Include="_masterPages\Grids.master" />
+    <Content Include="_masterPages\Master.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BitplateBackupServiceReference\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>52238</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52239/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

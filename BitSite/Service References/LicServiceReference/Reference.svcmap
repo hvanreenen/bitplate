@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="086ae741-69cc-452e-9c59-eb56fc1c0458" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52239/Services/LicService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LicService1.xsd" MetadataType="Schema" ID="2f0d2f82-e58c-49bc-937d-b18ff806f8d5" SourceId="1" SourceUrl="http://localhost:52239/Services/LicService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LicService.wsdl" MetadataType="Wsdl" ID="0b151712-17e4-4fdf-be93-4d512f1b9f09" SourceId="1" SourceUrl="http://localhost:52239/Services/LicService.svc?wsdl" />
+    <MetadataFile FileName="LicService2.xsd" MetadataType="Schema" ID="c20427c9-aaea-49dd-9174-f4f5808c4064" SourceId="1" SourceUrl="http://localhost:52239/Services/LicService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LicService.disco" MetadataType="Disco" ID="19356d36-4a0c-4dc7-a6ed-a0e9e2949d31" SourceId="1" SourceUrl="http://localhost:52239/Services/LicService.svc?disco" />
+    <MetadataFile FileName="LicService3.xsd" MetadataType="Schema" ID="cba263d7-6b0b-4c2d-b472-9a9fac7594e1" SourceId="1" SourceUrl="http://localhost:52239/Services/LicService.svc?xsd=xsd3" />
+    <MetadataFile FileName="LicService4.xsd" MetadataType="Schema" ID="e5639a7f-ad4a-4808-b377-68b650534244" SourceId="1" SourceUrl="http://localhost:52239/Services/LicService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

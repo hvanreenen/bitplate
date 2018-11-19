@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/_bitPlate/_MasterPages/Master.Master" AutoEventWireup="true" CodeBehind="Details.master.cs" Inherits="BitSite._bitPlate._MasterPages.Details" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="server">
+    <%= BitSite._bitPlate.BitBundler.ResolveBundleUrl("~/_bitplate/_themes/" + BitSite.SessionObject.CurrentBitplateUser.Theme + "/css/details") %>
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    <!-- sub topmenu -->
+    <div id="bitSubTopMenu">
+        <div id="divWrapperSubmenu">
+            <asp:ContentPlaceHolder ID="MenuBarPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+            <div id="bitplateLogo">
+                <img src="/_bitplate/_themes/bitplate/images/BPCMS_logo.png" width="278" height="54" alt="bitplate logo">
+            </div>
+        </div>
+    </div>
+    <div id="divWrapperMain">
+        <div id="bitplateTitlePage">
+            <asp:ContentPlaceHolder ID="TitlePlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <br clear="all" />
+        <asp:ContentPlaceHolder ID="DetailsPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

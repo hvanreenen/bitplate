@@ -1,0 +1,64 @@
+﻿#imageThumbnailDialog {
+}
+
+#imageThumbnailDialog > div {
+    min-width: 600px;
+}
+
+#tumbnailerHead > div {
+    display: inline-block;
+}
+
+#tumbnailContent {
+    margin-top: 5px;
+}
+
+#tumbnailContent > div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+#thumbnailImageList > ul {
+    width: 200px;
+    list-style-type: none;
+}
+
+#thumbnailImageList li {
+    margin-bottom: 5px;
+}
+
+#thumbnailImageList a {
+    display: block;
+    width: 190px;
+    padding: 5px;
+}
+
+#thumbnailCropper {
+    min-width: 410px;
+    text-align: center;
+}
+
+#thumbnailCropper img {
+    text-align: center;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#thumbnailPreview {
+    min-width: 350px;
+}
+
+#thumbsizeSettings input {
+    width: 30px;
+    margin-bottom: 2px;
+}
+
+#thumbsizeSettings {
+    margin-bottom: 5px;
+}
+
+#thumbsizeSettings > div > div {
+    min-width: 60px;
+    display: inline-block;
+}

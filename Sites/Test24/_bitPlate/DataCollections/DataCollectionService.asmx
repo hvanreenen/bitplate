@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="DataCollectionService.asmx.cs" Class="BitSite._bitPlate.DataCollections.DataCollectionService" %>

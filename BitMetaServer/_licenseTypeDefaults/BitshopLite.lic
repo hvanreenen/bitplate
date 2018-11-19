@@ -1,0 +1,8 @@
+1,MAX. NUMBERS (Gebruik 0 voor oneinding)
+1,PERMISSIONS
+4000,Webshop
+4100,WebshopProducts
+4200,WebshopOrders
+4300,WebshopUsers
+4400,WebshopSettings
+

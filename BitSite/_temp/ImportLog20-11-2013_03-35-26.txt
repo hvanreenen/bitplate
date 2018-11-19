@@ -1,0 +1,7 @@
+Geimporteerd: NieuwsbriefGebruikers.csv op 20-11-2013
+ImportTemplate gebruikt: 1234
+
+De volgende regels zijn niet geimporteerd vanwege fouten:
+
+
+Van de 5 zijn er 5 gelukt en 0 mislukt.

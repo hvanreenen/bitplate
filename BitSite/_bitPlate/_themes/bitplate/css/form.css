@@ -1,0 +1,119 @@
+﻿/*
+* ---| 6. pagesettings modal form
+*/
+#bitSettings hr{
+	border:0;
+	border-top:1px solid #5d3403;
+	border-bottom:1px solid #f8d4a8;
+	margin:10px 0px;
+}
+.bitPageSettingsCollumnA{
+	float:left;
+	width:30%;
+	margin:5px 5px 5px 0px;
+	height:30px;
+	line-height:27px;
+}
+.bitPageSettingsCollumnB{
+	float:left;
+	width:5%;
+	margin:5px 0px;
+	height:30px;
+	line-height:27px;
+}
+.bitPageSettingsCollumnC{
+	float:left;
+	width:60%;
+	margin:5px 0px;
+	min-height:30px;
+}
+.bitPageSettingsCollumnB span{
+	margin:0px 10px 0px 0px;
+}
+h1{
+	font-size:18px
+}
+.bitInfo{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -182px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitInfo:hover{
+	background-position: -26px -182px;
+}
+.bitDatepicker{
+	width:166px !important;
+}
+.bitHide{
+	display:none;
+	margin:0px 0px 10px 0px;
+	height:30px;
+}
+.bitTabPage {
+    /* height:521px; Deze hoogte is soms te hoog.*/
+    height:auto; 
+    overflow-y: auto; 
+    overflow-x:hidden
+}
+.bitTabPage label{
+	width:250px;
+}
+.bitTextAreaPageSettings{
+	width:100%;
+}
+.bitTextareaLarge{
+	height:900px;
+}
+a.bitTextareaResize:link{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaResize:visited{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaResize:hover{
+	background-position:-21px 0px;
+}
+a.bitTextareaResize:active{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaResized:link{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat 0px -21px;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaResized:visited{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat 0px -21px;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+a.bitTextareaResized:hover{
+	background-position:-21px -21px;
+}
+a.bitTextareaResized:active{
+	background:url(../images/BPCMS_textareaResize.png) no-repeat 0px -21px;
+	width:21px;
+	height:21px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.submit-loader {    background:url(../images/ajax-loader-white.gif) no-repeat left center !important;     color:#CCC !important;     /* padding:5px 9px 5px 18px !important; */
+}

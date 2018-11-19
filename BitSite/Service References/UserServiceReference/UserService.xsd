@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BitPlate.Domain" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BitPlate.Domain" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:52239/Services/UserService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/HJORM" />
+  <xs:complexType name="BaseDomainObject">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/HJORM" base="q1:BaseObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Active" type="tns:ActiveEnum" />
+          <xs:element minOccurs="0" name="DateFrom" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DateTill" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="IsActiveString" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BaseDomainObject" nillable="true" type="tns:BaseDomainObject" />
+  <xs:simpleType name="ActiveEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="InActive" />
+      <xs:enumeration value="Active" />
+      <xs:enumeration value="ActiveFrom" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ActiveEnum" nillable="true" type="tns:ActiveEnum" />
+  <xs:complexType name="BaseEnvironmentObject">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseDomainObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DatabaseName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DomainName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmailSettingsFrom" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmailSettingsHost" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmailSettingsPassword" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EmailSettingsUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Path" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BaseEnvironmentObject" nillable="true" type="tns:BaseEnvironmentObject" />
+</xs:schema>

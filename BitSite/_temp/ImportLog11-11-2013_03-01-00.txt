@@ -1,0 +1,10 @@
+Geimporteerd: NieuwsbriefGebruikers.csv op 11-11-2013
+ImportTemplate gebruikt: 
+
+De volgende regels zijn niet geimporteerd vanwege fouten:
+
+FOUT in regel 1/3 :  = SYSTEEM FOUT: Kan niet opslaan: licentie heeft maximale aantal abonnees (20) overschreden..
+FOUT in regel 2/3 :  = SYSTEEM FOUT: Kan niet opslaan: licentie heeft maximale aantal abonnees (20) overschreden..
+FOUT in regel 3/3 :  = SYSTEEM FOUT: Kan niet opslaan: licentie heeft maximale aantal abonnees (20) overschreden..
+
+Van de 3 zijn er 0 gelukt en 3 mislukt.

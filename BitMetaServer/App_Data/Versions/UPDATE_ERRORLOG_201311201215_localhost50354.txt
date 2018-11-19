@@ -1,0 +1,8 @@
+ERROR: Er is een fout opgetreden bij het uitvoeren van de update naar site http://localhost:50354
+TRACE: UPDATE UITGEVOERD OP OMGEVING: http://localhost:50354 VAN VERSIE:  NAAR VERSIE: 2.0.2.004
+UPDATE NAAR VERSIE: 2.0.2.001
+STAP 1: bestanden kopieren
+STAP 2: dbupdates doen
+STAP 2a: sql uitvoeren. File: dbupdates.txt
+
+ ERRORMSG: Table 'test' already exists

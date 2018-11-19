@@ -1,0 +1,1 @@
+﻿Plaats in deze map de reseller logos

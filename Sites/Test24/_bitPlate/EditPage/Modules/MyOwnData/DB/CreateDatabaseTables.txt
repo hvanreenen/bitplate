@@ -1,0 +1,19 @@
+﻿CREATE  TABLE IF NOT EXISTS `bitplate20`.`DataItemLanguage` (
+  `ID` VARCHAR(36) NOT NULL ,
+  `Name` VARCHAR(150) NULL DEFAULT NULL ,
+  `CreateDate` DATETIME NULL DEFAULT NULL ,
+  `ModifiedDate` DATETIME NULL DEFAULT NULL ,
+  `DateFrom` DATETIME NULL DEFAULT NULL ,
+  `DateTill` DATETIME NULL DEFAULT NULL ,
+  `FK_Site` VARCHAR(36) NULL DEFAULT NULL ,
+  ArtName Varchar(50),
+  artCode varchar(10),
+  Price float,
+  
+  PRIMARY KEY (`ID`) 
+  
+  INDEX `FK_Site` (`FK_Site` ASC)
+  
+  )
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = latin1;

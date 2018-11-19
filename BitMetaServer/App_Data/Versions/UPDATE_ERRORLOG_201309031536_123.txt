@@ -1,0 +1,6 @@
+ERROR: Er is een fout opgetreden bij het uitvoeren van de update naar site http://123
+TRACE: UPDATE OMGEVING: http://123 VAN VERSIE:  NAAR VERSIE: 2.0.2.003
+UPDATE NAAR VERSIE: 2.0.2.001
+STAP 1: bestanden kopieren
+
+ ERRORMSG: Could not find a part of the path '\\laptop-hj\123'.

@@ -1,0 +1,79 @@
+﻿#tableSentLog td, #tableStatics td {
+    padding: 2px 5px 2px 5px;
+}
+
+.ui-tabs-disabled {
+    display: none; /* disabled tabs don't show up */
+}
+
+#instellingenCSV,#instellingenXML,.settingsTab {
+    display:none;
+}
+
+.importsettingsSplash {
+font-size:12pt;
+color: red;
+}
+
+#importSubscriberFrame {
+width: 0px;
+height: 0px;
+}
+
+#FileExample td {
+border: 1px solid black;
+margin:0;
+padding:2px;
+background-color: white;
+white-space: nowrap;
+}
+
+#FileExample tr {
+margin:0;
+}
+
+#FileExample tr:first-child {
+font-weight:bold;
+}
+
+#definitionname {
+    width:100px;
+}
+
+/*#tabPageImportSubscribers*/
+
+#bitImportSubscribersDialog div[id^=tabPageImportSubscribers] {
+height: 400px;
+
+}
+
+
+#tabPageImportSubscribers5{
+    /*height:400px;*/
+    overflow:auto;
+}
+
+#importVoorbeeld {
+    width:338%;
+    overflow-x:auto;
+}
+
+/*#bitImportSubscribersDialog {
+    z-index:    1006 !important;
+}
+
+.ui-widget-overlay {
+    /*opacity:    .70 !important; /* Make sure to change both of these, as IE only sees the second one */
+    /*filter:     Alpha(Opacity=70) !important;
+    background: gray !important; /* This will make it darker 
+    z-index:    999 !important;
+}
+
+#bitNewsletterGroupDialog {
+    z-index:    1008 !important;
+}
+
+/* .loader {
+    height: 4px;
+    background-color: #cccccc;
+} */

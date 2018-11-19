@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="BackupService.asmx.cs" Class="BitSite._bitPlate.Backup.BackupService" %>

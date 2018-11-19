@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/BitPlate.Domain.Licenses" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BitPlate.Domain.Licenses" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:52239/Services/UserService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:52239/Services/UserService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/BitPlate.Domain" />
+  <xs:complexType name="ArrayOfLicensedEnvironment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LicensedEnvironment" nillable="true" type="tns:LicensedEnvironment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLicensedEnvironment" nillable="true" type="tns:ArrayOfLicensedEnvironment" />
+  <xs:complexType name="LicensedEnvironment">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/BitPlate.Domain" base="q1:BaseEnvironmentObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DatabasePassword" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DatabaseServer" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DatabaseUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EncryptedContent" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LicenseID" type="ser:guid" />
+          <xs:element minOccurs="0" name="LogMsg" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ServerName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SiteID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Version" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LicensedEnvironment" nillable="true" type="tns:LicensedEnvironment" />
+</xs:schema>

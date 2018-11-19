@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BitPlate.Domain.Newsletters.Newsletter">
+    <Position X="1" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgcAAAgAAAGAuAMABAAAQQgGAAAKAAAAAABAQAAA=</HashCode>
+      <FileName>Newsletters\Newsletter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.BaseDomainPublishableObject">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgCAIAgggAiAACAAAJAAgAAAAQABgAAQIAAAAAAAAQ=</HashCode>
+      <FileName>BaseDomainPublishableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.BaseDomainSiteObject">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>BaseDomainSiteObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.BaseDomainObject">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAgAAAAAEGAAAAAAQAAEAAAAgAAIAAAAEAAA=</HashCode>
+      <FileName>BaseDomainObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Newsletters.NewsletterGroup">
+    <Position X="3.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAgAgAAAAAAAAAAAAAAAEEAACAIAAAAAQgAAAA=</HashCode>
+      <FileName>Newsletters\NewsletterGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Newsletters.NewsletterSubscriber">
+    <Position X="10.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAQICAAiAAgACAAAIAAAACAACIAAAAQAAoAAAQAQA=</HashCode>
+      <FileName>Newsletters\NewsletterSubscriber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.CmsTemplate">
+    <Position X="5.75" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAiAYAAQgAEACwRAFAIAAAAAgEAQAKAQAggRAAEAAA=</HashCode>
+      <FileName>CmsTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Modules.Module">
+    <Position X="8.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQpJQSglBceAKAAMAIEgQGAhnGOkCAhYQEAQCCiIA=</HashCode>
+      <FileName>Modules\Module.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitPlate.Domain.Autorisation.BaseUser">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BitPlate.Domain.Autorisation.BaseUser.SexeEnum" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Autorisation\BaseUser.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAACAAwACIACIQACQCIAMAAAACAIAYgAAAAQA=</HashCode>
+      <FileName>Autorisation\BaseUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HJORM.BaseObject">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="BitPlate.Domain.Modules.DrillDownTypeEnum" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Modules\Module.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BitPlate.Domain.Modules.ShowDataEnum" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAEABAAA=</HashCode>
+      <FileName>Modules\Module.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BitPlate.Domain.Modules.ModeEnum" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAEAAAAAAAAAAEAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Module.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

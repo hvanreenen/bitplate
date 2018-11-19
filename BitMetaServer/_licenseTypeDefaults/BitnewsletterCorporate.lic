@@ -1,0 +1,10 @@
+1,MAX. NUMBERS (Gebruik 0 voor oneinding)
+0,MaxNumberOfNewsletterTemplates:10
+0,MaxNumberOfNewsletters:100
+0,MaxNumberOfNewsletterMailings:0
+0,MaxNumberOfNewsletterCustomers:0
+3000,NewsLetters
+3100,NewsLettersOverview
+3200,NewsLetterSubscriptions
+3300,NewsLetterSettings
+3400,NewsLetterStats

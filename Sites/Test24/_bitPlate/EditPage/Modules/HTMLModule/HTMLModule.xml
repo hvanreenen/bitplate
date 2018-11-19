@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>HTMLModule</Name>
+  <NewsletterProof>true</NewsletterProof>
+  <PageProof>true</PageProof>
+  <Tags>
+    <Tag>
+      <Name>{date.now}</Name>
+      <ReplaceValue><![CDATA[<%=DateTime.Now.ToString() %>]]></ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+  </Tags>
+  <IncludeScripts>
+    <string>BITHTMLMODULE.js</string>
+  </IncludeScripts>
+  <ConfigPageUrl>HTMLModuleConfig.aspx</ConfigPageUrl>
+  <ConfigPageStandardElements>
+    <string>#standardTabPageData</string>
+    <string>#standardTabPageNavigation</string>
+    <string>.bitConfigModuleListsSettings</string>
+  </ConfigPageStandardElements>
+  <ConfigPageTabControls>
+    <string>/_bitplate/bitpopups/moduleconfig/generalconfigcontrol.ascx</string>
+    <string>/_bitplate/_bitmodules/mijnmodule/configdialog.ascx</string>
+  </ConfigPageTabControls>
+  <ContentSamples>
+    <string>{date.now}</string>
+  </ContentSamples>
+</Module>

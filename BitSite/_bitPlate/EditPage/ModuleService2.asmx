@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="ModuleService2.asmx.cs" Class="BitSite._bitPlate.EditPage.ModuleService2" %>

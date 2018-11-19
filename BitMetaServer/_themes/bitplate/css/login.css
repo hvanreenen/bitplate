@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+/*
+-----::: ABCnet.nl (c) 2012 :::-----
+DATE: 17/07/2012
+EDITED: 17/07/2012
+DESCRIPTION: This is the CSS for cms.bitplate.com ---| LOGIN bitplate.theme |---
+SECTIONS:	1. body reset values | 2. containers | 3. login window
+COLORS: Orange:#fd9417;
+*/
+/*
+* ---| 1. body reset values |---
+*/
+body{
+	background:#bdd5ec;
+	overflow-x:hidden;
+	-ms-overflow-x: hidden;
+	font:12px Verdana, Geneva, sans-serif;
+	color:#333;
+}
+*{
+	margin:0;
+	padding:0;
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+	text-decoration:underline;
+}
+::selection{
+	background:#fd9417;
+}
+::-moz-selection{
+	background:#fd9417;
+}
+.clr_bth{
+	clear:both;
+}
+/*
+* ---| 2. containers |---
+*/
+#divWrapperMain{
+	position:relative;
+	width:500px;
+	margin:0 auto;
+}
+/*
+* ---| 3. login window |---
+*/
+#bitLoginWindow{
+	position:relative;
+	margin:50px 0px 0px 0px;
+	width:498px;
+	border-top:solid 1px #2d4e75;
+	border-right:solid 1px #787878;
+	border-bottom:solid 1px #787878;
+	border-left:solid 1px #787878;
+	box-shadow:0px 0px 8px #000;
+}
+#bitLoginWindowTitle{
+	background:url(../images/BPCMS_dashboard_banner.jpg) no-repeat -1129px 0px;
+	border-bottom:solid 1px #9cbee6;
+	height:112px;
+}
+#bitLoginWindowLogo{
+	position:absolute;
+	left:15px;
+	top:31px;
+	background:url(../images/BPCMS_logo.png) no-repeat;
+	width:278px;
+	height:54px;
+}
+#bitLoginWindowMain{
+	background:#fafafa;
+	width:458px;
+	height:259px;
+	padding:20px;
+	font-weight:700;
+	line-height:200%;
+}
+#bitLoginWindowMain span{
+	font-weight:100;
+}
+#bitLoginWindowUser, #bitLoginWindowPassword{
+	margin:5px 0px;
+}
+#bitLoginWindowSave, .bitLoginWindowButton{
+	margin:10px 0px;
+}
+#bitLoginWindowSelect{
+	float:left;
+}
+#bitLoginWindowLogin, #bitLoginWindowForgotPassword{
+	position:absolute;
+}
+#bitLoginWindowForgotPassword{
+	display:none;
+}
+
+.submit-loader {    background:url(../images/ajax-loader-white.gif) no-repeat left center !important;     color:#CCC !important;     padding:5px 9px 5px 18px !important; 
+}

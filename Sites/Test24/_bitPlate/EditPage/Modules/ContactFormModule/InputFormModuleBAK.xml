@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BaseModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>InputFormModule</Name>
+  
+  <Tags>
+    <Tag>
+      <Name>{submitButton}</Name>
+      <ReplaceValue><![CDATA[<input type="hidden" name="bitFormId" value="{0}" /><button type="button" onclick="BITINPUTFORMMODULE.submitForm('{0}');">]]></ReplaceValue>
+      <HasCloseTag>true</HasCloseTag>
+      <ReplaceValueCloseTag><![CDATA[</button>]]></ReplaceValueCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxForeName}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxForeName' name='bitTextboxForeName' data-validation="required" class='required'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxNamePrefix}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxNamePrefix' name='bitTextboxNamePrefix' />]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxFirstName}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxFirstName' name='bitTextboxFirstName' data-validation=\"required\" />]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxName}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxName'  name='bitTextboxName' class='required' data-validation=\"required\"/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxEmail}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxEmail' name='bitTextboxEmail' class='required email' data-validation=\"email\" />]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxCompany}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxCompany' name='bitTextboxCompany' />]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{radioSexeMale}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='radio' name='bitRadioGroupSexe' value='1' />]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{radioSexeFemale}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='radio' name='bitRadioGroupSexe' value='2' />]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{radioSexeUnknown}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='radio' name='bitRadioGroupSexe' value='0' checked='checked'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxAddress}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxAddress' name='bitTextboxAddress'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxPostalCode}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxPostalCode' name='bitTextboxPostalCode'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxPlace}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxPlace' name='bitTextboxPlace'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxCountry}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxCountry' name='bitTextboxCountry'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxBirthDate}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxBirthDate' name='bitTextboxBirthDate'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{textboxTelephone}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='text' id='bitTextboxTelephone' name='bitTextboxTelephone'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+    <Tag>
+      <Name>{opt-inCheckbox}</Name>
+      <ReplaceValue>
+        <![CDATA[<input type='checkbox' id='bitCheckboxOptIn'  name='bitCheckboxOptIn' checked='checked'/>]]>
+      </ReplaceValue>
+      <HasCloseTag>false</HasCloseTag>
+    </Tag>
+  </Tags>
+  <IncludeScripts>
+    <string>/_bitplate/_js/Plugins/jquery.iframe-post-form.js</string>
+    <string>/_bitplate/_bitModules/InputFormModule/BITINPUTFORM.js</string>
+    <string>/_bitplate/_js/JSON.js</string>
+    <string>/_bitplate/_js/prototypes/validation.js</string>
+    <string>/_bitplate/_themes/bitplate/jquery-ui-1.9.1/css/custom-theme/jquery-ui-1.9.1.custom.css</string>
+  </IncludeScripts>
+  <ContentWrapper>
+    <![CDATA[<form id="bitForm{ID}" method="post" action="/_bitplate/_bitmodules/InputFormModule/InputFormService.aspx">
+  {ModuleContent}
+  </form>]]></ContentWrapper>
+  <ConfigPageUrl>InputFormModuleConfig.aspx</ConfigPageUrl>
+  <ConfigPageStandardElements>
+    <string>#standardTabPageNavigation</string>
+    <string>#standardTabPageData</string>
+  </ConfigPageStandardElements>
+  <IsDataModuleRequired>false</IsDataModuleRequired>
+  <IsNavigationModuleRequired>false</IsNavigationModuleRequired>
+  <TagType>Input</TagType>
+  <ContentSamples>
+    <string>
+      <![CDATA[<div>Bevestig formulier
+    <table>
+        
+        <tr>
+            <td>
+                Tekst
+            </td>
+            <td>
+                <input type='text' name='Naam' class='required'/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Kies kleur
+            </td>
+            <td>
+                <select name='Kleur'><option value='rood'>Rood</option><option value='groen'>Groen</option><option value='geel'>Geel</option></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Aan/uit
+            </td>
+            <td>
+                <input name='Aan/uit' type='checkbox' value='aan'/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Bestand
+            </td>
+            <td>
+                <input name='Bestand' type='file' />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Keuzerondjes
+            </td>
+            <td>
+                <input  name='Keuzerondjes' type='radio' value='1' checked='checked'/> 1
+                <input  name='Keuzerondjes' type='radio' value='2'/> 2
+                <input  name='Keuzerondjes' type='radio' value='3'/> 3
+            </td>
+        </tr></table>{submitButton}Versturen{/submitButton}</div><div><div id="bitFormAcceptResponse{ID}" style="display: none;">Form verstuurd.</div><div id="bitFormErrorResponse{ID}" style="display: none;"><div>Form error</div><div><div class="button" id="bitFormErrorTryAgain{ID}">Probeer opnieuw</div></div></div></div>]]></string>
+  </ContentSamples>
+</BaseModule>

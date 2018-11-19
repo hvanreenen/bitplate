@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/_bitPlate/_MasterPages/Master.Master" AutoEventWireup="true"
+    CodeBehind="EditWysiwyg.master.cs" Inherits="BitSite._bitPlate._MasterPages.EditWysiwyg" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="server">
+    <%= BitSite._bitPlate.BitBundler.ResolveBundleUrl("~/_bitplate/_themes/" + BitSite.SessionObject.CurrentBitplateUser.Theme + "/css/editwysiwyg") %>
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    <asp:ContentPlaceHolder ID="SlideMenuPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

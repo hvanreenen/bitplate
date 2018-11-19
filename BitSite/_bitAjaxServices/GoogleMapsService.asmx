@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="GoogleMapsService.asmx.cs" Class="BitSite._bitAjaxServices.GoogleMapsService" %>

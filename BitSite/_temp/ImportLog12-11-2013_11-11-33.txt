@@ -1,0 +1,10 @@
+Geimporteerd: NieuwsbriefGebruikers.csv op 12-11-2013
+ImportTemplate gebruikt: 123
+
+De volgende regels zijn niet geimporteerd vanwege fouten:
+
+FOUT in regel 1/3 : f.danckaarts@bitplate.local = Geen geldig email adres.
+FOUT in regel 2/3 : m.bergkamp@bitplate.local = Geen geldig email adres.
+FOUT in regel 3/3 : e.vantoor@bitplate.local = Geen geldig email adres.
+
+Van de 3 zijn er 0 gelukt en 3 mislukt.

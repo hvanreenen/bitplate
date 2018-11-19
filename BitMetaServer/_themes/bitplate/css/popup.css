@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+#bitPopups {
+    font:10pt Arial;
+}
+.bitPopup
+{
+    position: absolute;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    padding: 2px;
+    width: 250px;
+    height: 315px;
+    top: 100px;
+    left: 300px;
+    z-index: 2000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.bitPopupTitle
+{
+    border-bottom: 2px solid #666;
+    background-color: #ccc;
+    padding: 5px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bitPopupContent
+{
+    overflow: scroll;
+    height: 240px;
+}
+.bitPopupBottom
+{
+    border-top: 2px solid #666;
+    background-color: #ccc;
+    padding: 5px;
+    height: 30px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.bitPopupMaximize{
+	position:absolute;
+	right:1px;
+	background:url(../images/BPCMS_popupMaximize.png) no-repeat 0px -20px;
+	width:20px !important;
+	height:21px !important;
+}
+.bitPopupMaximize:hover{
+	background-position: -21px -20px;
+}
+a#aBitPopupMaximize:link{
+	position:absolute;
+	right:25px;
+	width:20px;
+	height:18px;
+	z-index:1000000;
+}
+a#aBitPopupMaximize:hover{
+	width:20px;
+	height:18px;
+	background:#DADADA;
+	border:solid 1px #999;
+}
+.bitPopupMaximized{
+	position:absolute;
+	right:1px;
+	background:url(../images/BPCMS_popupMaximize.png) no-repeat 0px 0px !important;
+	width:20px !important;
+	height:21px !important;
+	
+}
+.bitPopupMaximized:hover{
+	background-position: -21px 0px !important;
+}
+
+/* voor images popup */
+.bitFolder
+{
+    background-color: #FFCC66;
+    border: 1px solid #000000;
+    margin:2px;
+    padding: 5px;
+}
+.bitFile img, .bitImage img
+{
+    max-height: 50px;
+    max-width:50px;
+}
+

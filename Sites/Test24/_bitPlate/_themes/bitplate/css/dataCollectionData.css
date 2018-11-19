@@ -1,0 +1,186 @@
+﻿.placeholder {
+	border: 1px dashed #4183C4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.mjs-nestedSortable-error {
+	background: #fbe3e4;
+	border-color: transparent;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
+	padding-left: 30px;
+}
+
+ol.sortable, ol.sortable ol {
+	margin: 0 0 0 25px;
+	padding: 0;
+	list-style-type: none;
+}
+
+ol.sortable {
+	/* margin: 4em 0; */
+}
+
+.sortable li {
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+.sortable li div  {
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+	padding: 6px;
+	margin: 0;
+	cursor: move;
+	background: #f6f6f6;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	background: linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed' );
+}
+
+        
+.sortable li div:hover  {
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+	padding: 6px;
+	margin: 0;
+	cursor: move;
+	background: #C1FFE7;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #CED9E5 47%, #ededed 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#CED9E5), color-stop(100%,#ededed));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#CED9E5 47%,#ededed 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#CED9E5 47%,#ededed 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#CED9E5 47%,#ededed 100%);
+	background: linear-gradient(top,  #ffffff 0%,#CED9E5 47%,#ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CED9E5', endColorstr='#ededed');
+}
+        
+.selectedSortable > div  {
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+	padding: 6px;
+	margin: 0;
+	cursor: move;
+	background: #C1FFE7 !important;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #F7931E 47%, #ededed 100%) !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#F7931E), color-stop(100%,#ededed)) !important;
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#F7931E 47%,#ededed 100%) !important;
+	background: -o-linear-gradient(top,  #ffffff 0%,#F7931E 47%,#ededed 100%) !important;
+	background: -ms-linear-gradient(top,  #ffffff 0%,#F7931E 47%,#ededed 100%) !important;
+	background: linear-gradient(top,  #ffffff 0%,#F7931E 47%,#ededed 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7931E', endColorstr='#ededed') !important;
+}
+        
+div#sortableHeader
+{
+    height: 30px;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 16px;
+} 
+        
+div#sortableHeader > div
+{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sortableHeaderNaam
+{
+    max-width: 200px;
+}
+
+.dataInfo { text-align: right; }
+.dataInfo span { display: inline-block; padding-left: 5px; padding-right: 5px; vertical-align: middle; }
+.dataInfo span a { vertical-align: middle; }
+
+.sortableHeaderVolgnr, .sortableVolgnr
+{
+    width: 50px;
+}
+       
+.sortableHeaderNaam, .sortableNaam
+{
+    width: 220px;
+    float: left;
+    text-align: left !important;
+}
+.sortableNaam {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sortableHeaderTitel, .sortableTitel
+{
+    width: 60px;
+}
+       
+.sortableHeaderStatus, .sortableStatus
+{
+    width: 100px;
+}
+.sortableHeaderConfig, .sortableConfig
+{
+    width: 56px;
+}
+       
+.sortableHeaderVerwijder, .sortableVerwijder
+{
+    width: 82px;
+}
+       
+.sortableHeaderKopie, .sortableKopie
+{
+    width: 66px;
+}
+       
+.sortableHeaderAanmaakDatum, .sortableAanmaakDatum
+{
+    width: 120px;
+}
+
+.sortableAanmaakDatum
+{
+    padding-right: 0px !important;
+}
+
+.bitTableFolderIcon {
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -156px;
+	width:16px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+    float: left;
+}
+       
+.bitTablePageIcon {
+    background: url(../images/BPCMS_page-icons.png) no-repeat 0px -130px;
+    width: 16px;
+    height: 26px;
+    display: inline-block;
+    text-indent: -9999px;
+    border-bottom: none !important;
+    outline: none;
+    float: left;
+}

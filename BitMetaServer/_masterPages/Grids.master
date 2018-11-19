@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/_MasterPages/Master.Master"
+    AutoEventWireup="true" CodeBehind="Grids.master.cs" Inherits="BitMetaServer._MasterPages.Grids" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="server">
+    <%= BitMetaServer.BitBundler.ResolveBundleUrl("~/_themes/" + ((BitMetaServer.SessionObject.CurrentUser != null) ? BitMetaServer.SessionObject.CurrentUser.Theme : "bitplate") + "/css/grid") %>
+    <script type="text/javascript" src="<%=ResolveClientUrl("/_js/plugins/modernizr.custom.59383.js")%>"></script>
+    <script type="text/javascript" src="<%=ResolveClientUrl("/_js/plugins/jQuery.placeholder.js")%>"></script>
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    <!-- sub topmenu -->
+    <div id="bitSubTopMenu">
+        <div id="divWrapperSubmenu">
+
+            <asp:ContentPlaceHolder ID="MenuBarPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+            <div id="bitplateLogo">
+                <img src="<%=ResolveClientUrl("../_themes/bitplate/images/BPCMS_logo.png") %>" width="278" height="54" alt="bitplate logo">
+            </div>
+        </div>
+    </div>
+    <div id="divWrapperMain">
+        <div id="bitplateTitlePage">
+            <asp:ContentPlaceHolder ID="TitlePlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div id="bitDivSearch">
+                    <input type="text" id="bitSearchTextbox" placeholder="zoeken..." />
+                    <a id="bitClearSearchButton" class="bitTextboxResetX" title="Reset zoekgegevens">clear</a>
+                    <a href="#" class="bitLiveButton" id="bitSearchTextboxEnterSearch" title="Zoeken...">Zoeken</a>
+            </div>
+        <br clear="all" />
+        <asp:ContentPlaceHolder ID="GridPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        <div id="bitPopups">
+            <asp:ContentPlaceHolder ID="PopupsPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>

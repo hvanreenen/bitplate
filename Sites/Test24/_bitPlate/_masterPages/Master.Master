@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="BitSite._bitPlate._MasterPages.Master" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bitplate 2.0</title>
+    <%= BitSite._bitPlate.BitBundler.ResolveBundleUrl("~/BitCore") %>
+    <%= BitSite._bitPlate.BitBundler.ResolveBundleUrl("~/_bitplate/_themes/" + BitSite.SessionObject.CurrentBitplateUser.Theme + "/css/core") %>
+    
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="bitAjaxLoaderContainer">
+        <div>Wachten op server.</div>
+        <div id="ajaxloaderImage"></div>
+    </div>
+    <!-- page -->
+    <!-- topmenu -->
+    <div id="divBitplateTopMenu">
+        
+        <!-- wrap main menu -->
+        <form id="menuForm" runat="server">
+            <div id="divWrapperMainMenu">
+         
+                <ul class="bitUlMenu">
+                    
+                    <li><a href="/_bitPlate/Default.aspx">Dashboard</a></li>
+                    <li runat="server" id="liPages"><a href="/_bitPlate/Pages/Pages.aspx">Pagina's</a></li>
+                    <li runat="server" id="liDataCollections"><a href="/_bitPlate/DataCollections/DataCollections.aspx">Datacollecties</a></li>
+                    <li runat="server" id="liTemplates"><a href="/_bitPlate/Templates/Templates.aspx?type=page">Templates</a></li>
+                    <!--<li><a href="#">Contact</a></li>-->
+                    <!--<li><a href="#">FAQ</a></li>-->
+                </ul>
+                <ul class="bitUlMenu bitUlMenuRight">
+                    <li><a href="#" id="bitHelp" title="Klik en ga dan met je muis over de verschillende items die je op de pagina ziet, dan krijg je uitleg over elke sectie">?</a></li>
+                    <li><a href="#">Ingelogd als: 
+                        <asp:Literal ID="ltrlLoggedInAs" runat="server"></asp:Literal></a></li>
+                    <li><a href="javascript:BITAUTH.userSettingsDialog();">Eigen gegevens</a></li>
+                    <li>
+                        <asp:LinkButton ID="lbtnUitloggen" runat="server" OnClick="lbtnUitloggen_Click">Uitloggen</asp:LinkButton></li>
+                </ul>
+            </div>
+        </form>
+        <!-- .wrap main menu -->
+    </div>
+    <!-- .topmenu -->
+    <!-- banner -->
+    <div id="bitBanner">
+        <div id="divBannerWrapper">
+            <div id="bitBannerLogo"></div>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <div style="display: none">
+        <div id="bitMasterInputDialog">
+            <!--<p><span id="bitMasterInputBoxIcon" class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span></p>-->
+			<div id="bitMasterInputMessage"></div>
+            <div><input id="bitMasterInput" type="text" /></div>
+        </div>
+
+        <div id="bitMasterMsgDialog">
+            <!--<p><span id="Span1" class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>-->
+            <p><span id="bitMasterMsgBoxIcon" class="bitMessageBoxQuestion" style="float: left; margin-right: .3em;"></span> 
+                
+			<span id="bitMasterMessage" style="float: left; margin-top: .3em;"></span></p>
+        </div>
+
+        <div id="bitUserSettingsDialog" title="Gebruiker"></div>
+    </div>
+</body>
+</html>

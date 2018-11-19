@@ -1,0 +1,358 @@
+﻿@charset "utf-8";
+/*
+-----::: ABCnet.nl (c) 2012 :::-----
+DATE: 19/07/2012
+EDITED: 11/12/2012
+DESCRIPTION: This is the CSS for cms.bitplate.com ---| PAGE GRID |---
+SECTIONS:	1. containers | 2. data sorter | 3. bitplateLogo + title page | 4. search box
+COLORS: Orange:#fd9417; | Grey:#808285;
+*/
+
+/*
+* ---| 1. containers |---
+*/
+#divWrapperMain{
+	position:relative;
+	width:1000px;
+	margin: 110px auto 0px auto;
+}
+#divWrapperSubmenu{
+	position:relative;
+	width:1000px;
+	margin:0 auto;
+	height:80px;
+}
+#bitSubTopMenu{
+    position:fixed;
+    z-index:1000;
+    top: 27px;
+	background:url(../images/BPCMS_dashboard_banner.jpg) top center fixed repeat-x;
+	width:100%;
+	height:80px;
+	border-bottom:outset 1px #b6b6b6;
+}
+#bitSubTopMenu:hover{
+	box-shadow:0px 0px 8px #000;
+}
+#bitSubTopMenu ul{
+	list-style-type:none;
+}
+#bitSubTopMenu ul li{
+	float:left;
+	padding:12px 3px;
+	line-height:29%;
+	color:#000;
+}
+#bitSubTopMenu ul li:hover{
+	color:#323232;
+}
+#bitSubTopMenu ul li a{
+	margin:0 auto;
+}
+#bitSubTopMenu ul li div{
+	text-align:center;
+}
+.bitSearchPosition {
+    position: relative;
+    bottom: 13px;
+}
+/*
+* ---| 2. data sorter |---
+*/
+.bitGrid{
+	margin:25px 0px 0px 0px;
+	table-layout:fixed;
+	border-collapse:collapse;
+    width: 1000px;
+}
+.bitGrid input[type="text"]{
+	background:transparent;
+	width:200px;
+	border:none;
+	color:#6e6e6e;
+	border-radius: 2px;
+	padding:5px 9px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.bitGrid input[type='text']:hover, input[type='password']:hover{
+	box-shadow: 0px 0px 5px #888;
+	color:#000;
+}
+.bitGrid input[type='text']:focus, input[type='password']:focus{
+	position:absolute;
+	background:#fff;
+	border: solid 1px #333;
+	box-shadow: 0px 0px 5px #888;
+	color:#000;
+	width:100%;
+}
+.bitGrid a{
+	color:#000;
+	border-bottom:dotted 1px #000;
+}
+.bitGrid a:hover{
+	color:#333;
+	border-bottom:solid 1px #000;
+}
+.bitTableColumnIcon{
+	width:40px;
+}
+.bitTableColumnName{
+	width:140px;
+	text-align:left;
+}
+.bitTableColumnTitle{
+    width:240px
+}
+.bitTableColumnPath{
+    width:240px;
+    display:none;
+}
+.bitTableColumnStatus{
+    width:100px;
+}
+.bitTableColumnCreateDate{
+    width:120px;
+}
+.bitTableNameCollumn{
+	width:100px;
+}
+.bitTableStatusCollumn{
+	width:80px;
+	text-align:center;
+}
+
+.bitTableDateColumn{
+	width:80px;
+	text-align:center;
+}
+
+.bitTableColumnEllipsis{
+    white-space:nowrap; 
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.bitTableActionButton{
+	width:74px;
+	text-align:center;
+}
+.bitTableActionButton a{
+	border-bottom:none !important;
+}
+.bitGrid thead, .bitGrid thead a{
+	font:700 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.bitGrid thead tr{
+	border-bottom:solid 1px #686868;
+	height:37px;
+}
+.bitGrid tbody tr{
+	height:37px;
+    line-height:4px;
+}
+.bitGrid tbody tr:hover{
+	background:#d3dae6;
+}
+.bitGrid tbody tr:hover .bitTablePageIcon{
+	background-position:-26px -130px;
+}
+.bitGrid tbody tr:hover .bitTableFolderIcon{
+	background-position:-26px -156px;
+}
+.bitGrid tbody tr:hover .bitTableHomePageIcon{
+	background-position:-26px -234px;
+}
+#tableDataCollections tbody tr:hover .bitTablePageIcon{
+	background-position: -26px -260px;
+}
+
+a.bitTableHomePageIcon:link, .bitTableHomePageIcon{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -234px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+a.bitTableHomePageIcon:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -234px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+a.bitTableHomePageIcon:hover{
+	background-position: -26px -234px;
+}
+a.bitTableHomePageIcon:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -234px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+
+a.bitTablePageIcon:link, .bitTablePageIcon{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -130px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+a.bitTablePageIcon:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -130px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+a.bitTablePageIcon:hover{
+	background-position: -26px -130px;
+}
+a.bitTablePageIcon:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -130px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+a.bitTableFolderIcon:link, .bitTableFolderIcon{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -156px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+a.bitTableFolderIcon:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -156px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+a.bitTableFolderIcon:hover{
+	background-position: -26px -156px;
+}
+a.bitTableFolderIcon:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -156px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+
+#tableDataCollections a.bitTablePageIcon:link{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -260px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+#tableDataCollections a.bitTablePageIcon:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -260px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+#tableDataCollections a.bitTablePageIcon:hover{
+	background-position: -26px -260px;
+}
+#tableDataCollections a.bitTablePageIcon:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -260px;
+	width:26px;
+	height:26px;
+	display:inline-block;
+	text-indent:-9999px;
+	border-bottom:none !important;
+	outline:none;
+}
+
+.bitEndTable{
+	background:#fd9417;
+	width:1000px;
+	height:1px;
+	box-shadow: 0px 3px 8px #888;
+	margin:10px 0px 0px 0px;
+}
+
+/*
+* ---| 3. bitplateLogo + title page |---
+*/
+#bitplateLogo{
+	position:absolute;
+	right:0px;
+	height:80px;
+	line-height:125px;
+}
+#bitplateTitlePage{
+	float:left;
+	font:28px Verdana, Geneva, sans-serif;
+	margin:22px 0px -6px 48px;
+	color:#808285;
+	text-shadow:1px 1px 3px #888;
+}
+/*wanneer een item is gevonden na zoeken wordt er span highlight om heen gezet*/
+.highlight {
+    background:#eed32c;
+}
+
+.jstree-draggable {
+    /* cursor: pointer; */
+}
+/*
+* ---| 5. search box |---
+*/
+#bitDivSearch{
+    position: relative;
+    top:31px;
+    width:200px;
+    float:right;
+}
+#bitSearchTextbox {
+    position:absolute;
+    right:26px;
+}
+#bitSearchTextboxEnterSearch {
+    position:absolute;
+    right:0px;
+}
+#bitClearSearchButton{
+    position:absolute;
+	right:33px;
+	top:9px;
+    background:url(../images/reset.png) no-repeat;
+    width:11px;
+    height:11px;
+    z-index:1000;
+    display:none;
+	text-indent:-99999px;
+	padding:0px;
+	line-height:0px;
+}
+#tableView {
+    clear: left;
+}

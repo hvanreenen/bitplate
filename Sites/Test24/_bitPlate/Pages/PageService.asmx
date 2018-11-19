@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="PageService.asmx.cs" Class="BitSite._bitPlate.Pages.PageService" %>

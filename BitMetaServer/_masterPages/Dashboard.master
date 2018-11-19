@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/_MasterPages/Master.Master" AutoEventWireup="true"
+    CodeBehind="Dashboard.master.cs" Inherits="BitMetaServer._MasterPages.Dashboard" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="server">
+    <%= BitMetaServer.BitBundler.ResolveBundleUrl("~/_themes/" + BitMetaServer.SessionObject.CurrentUser.Theme + "/css/dashboard") %>
+    <script src="/_bitplate/_js/bitLeftSlideMenu.js" type="text/javascript"></script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    
+    <!-- slide left menu -->
+    <asp:ContentPlaceHolder ID="SlideMenuPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <!-- main area boxes -->
+    <div id="divWrapperBoxes">
+        <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <!-- footer -->
+    
+    <div id="bitFooterMenu">
+        <div id="divFooterWrapper">
+            <div id="bitFooterMenuItems">
+                <asp:ContentPlaceHolder ID="FooterContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="bitVersion"><asp:Label ID="LabelVersion" runat="server" Text=""></asp:Label></div>
+        </div>
+    </div>
+</asp:Content>

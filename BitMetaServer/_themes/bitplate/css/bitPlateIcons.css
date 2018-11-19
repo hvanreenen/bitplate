@@ -1,0 +1,1355 @@
+﻿@charset "utf-8";
+/*
+-----::: ABCnet.nl (c) 2013 :::-----
+DATE: 31/07/2012
+EDITED: 24/01/2013
+DESCRIPTION: This is the CSS for cms.bitplate.com ---| Navigation Icons |---
+SECTIONS:	1. Navigation bar buttons | 2. Dashboard buttons | 3. Page grid icons | 4. messageBox icons | 5. PageEdit buttons
+COLORS: Orange:#fd9417; | Grey:#808285;
+*/
+/*
+* ---| 1. Navigation bar buttons |---
+*/
+.bitNavBarButtonBack /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px 0px ;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonBack:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonBack:hover{
+	background-position: -350px -150px;
+}
+.bitNavBarButtonBack:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonAddPage /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddPage:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddPage:hover{
+	background-position: -350px -200px;
+}
+.bitNavBarButtonAddPage:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonAddFolder /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddFolder:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddFolder:hover{
+	background-position: -350px -250px;
+}
+.bitNavBarButtonAddFolder:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonSavePage /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -400px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonSavePage:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -400px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonSavePage:hover{
+	background-position: -400px -150px;
+}
+.bitNavBarButtonSavePage:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -400px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonAddSite /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -400px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddSite:visited{
+	background-position: -400px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddSite:hover{
+	background-position: -400px -200px;
+}
+.bitNavBarButtonAddSite:active{
+	background-position: -400px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonDownload /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -450px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonDownload:visited{
+	background-position: -450px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonDownload:hover{
+	background-position: -450px -150px;
+}
+.bitNavBarButtonDownload:active{
+	background-position: -450px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonUpload /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -400px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonUpload:visited{
+	background-position: -400px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonUpload:hover{
+	background-position: -400px -250px;
+}
+.bitNavBarButtonUpload:active{
+	background-position: -400px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonCopy /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -450px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonCopy:visited{
+	background-position: -450px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonCopy:hover{
+	background-position: -450px -200px;
+}
+.bitNavBarButtonCopy:active{
+	background-position: -450px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonEditName /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -500px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonEditName:visited{
+	background-position: -500px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonEditName:hover{
+	background-position: -500px -250px;
+}
+.bitNavBarButtonEditName:active{
+	background-position: -500px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonCut /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -500px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonCut:visited{
+	background-position: -500px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonCut:hover{
+	background-position: -500px -200px;
+}
+.bitNavBarButtonCut:active{
+	background-position: -500px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonPaste /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -500px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonPaste:visited{
+	background-position: -500px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonPaste:hover{
+	background-position: -500px -150px;
+}
+.bitNavBarButtonPaste:active{
+	background-position: -500px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonDelete /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -450px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonDelete:visited{
+	background-position: -450px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonDelete:hover{
+	background-position: -450px -250px;
+}
+.bitNavBarButtonDelete:active{
+	background-position: -450px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonMakeThumb /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -550px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonMakeThumb:visited{
+	background-position: -550px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonMakeThumb:hover{
+	background-position: -550px -150px;
+}
+.bitNavBarButtonMakeThumb:active{
+	background-position: -550px -150px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonAddUser /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -550px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddUser:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -550px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddUser:hover{
+	background-position: -550px -250px;
+}
+.bitNavBarButtonAddUser:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -550px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonAddUserGroup /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -550px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddUserGroup:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -550px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonAddUserGroup:hover{
+	background-position: -550px -200px;
+}
+.bitNavBarButtonAddUserGroup:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -550px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonShowTree /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonShowTree:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonShowTree:hover{
+	background-position: -600px -150px;
+}
+.bitNavBarButtonShowTree:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonHideTree /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonHideTree:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonHideTree:hover{
+	background-position: -600px -200px;
+}
+.bitNavBarButtonHideTree:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonShowInfo /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonShowInfo:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonShowInfo:hover{
+	background-position: -350px -200px;
+}
+.bitNavBarButtonShowInfo:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -350px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitNavBarButtonHideInfo /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonHideInfo:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitNavBarButtonHideInfo:hover{
+	background-position: -600px -250px;
+}
+.bitNavBarButtonHideInfo:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -600px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+/*
+* ---| 2. Dashboard buttons |---
+*/
+.bitBoardPages /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardPages:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardPages:hover{
+	background-position: 0px -150px;
+}
+.bitBoardPages:active{
+	background:url(../images/BPCMS_icons.png) no-repeat;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardFileManager /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardFileManager:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardFileManager:hover{
+	background-position: -50px -150px;
+}
+.bitBoardFileManager:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardModules /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardModules:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardModules:hover{
+	background-position: -100px -150px;
+}
+.bitBoardModules:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardPublish /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardPublish:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardPublish:hover{
+	background-position: -50px -200px;
+}
+.bitBoardPublish:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardMenuManager /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardMenuManager:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardMenuManager:hover{
+	background-position: -100px -200px;
+}
+.bitBoardMenuManager:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardGeneral /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardGeneral:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardGeneral:hover{
+	background-position: -150px -150px;
+}
+.bitBoardGeneral:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardTemplates /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardTemplates:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardTemplates:hover{
+	background-position: -200px -150px;
+}
+.bitBoardTemplates:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardBackups /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardBackups:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardBackups:hover{
+	background-position: -250px -150px;
+}
+.bitBoardBackups:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardFolders /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat 0px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardFolders:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat 0px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardFolders:hover{
+	background-position: 0px -200px;
+}
+.bitBoardFolders:active{
+	background:url(../images/BPCMS_icons.png) no-repeat 0px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardStylesheets /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardStylesheets:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardStylesheets:hover{
+	background-position: -150px -200px;
+}
+.bitBoardStylesheets:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardScripts /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardScripts:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardScripts:hover{
+	background-position: -200px -200px;
+}
+.bitBoardScripts:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardEventlog /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardEventlog:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardEventlog:hover{
+	background-position: -250px -200px;
+}
+.bitBoardEventlog:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardNewsLetters /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat 0px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardNewsLetters:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat 0px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardNewsLetters:hover{
+	background-position: 0px -250px;
+}
+.bitBoardNewsLetters:active{
+	background:url(../images/BPCMS_icons.png) no-repeat 0px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardSubscriptions /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardSubscriptions:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardSubscriptions:hover{
+	background-position: -50px -250px;
+}
+.bitBoardSubscriptions:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -50px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardSettings /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardSettings:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardSettings:hover{
+	background-position: -100px -250px;
+}
+.bitBoardSettings:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -100px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardSites /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardSites:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardSites:hover{
+	background-position: -150px -250px;
+}
+.bitBoardSites:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -150px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardAdmins /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardAdmins:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardAdmins:hover{
+	background-position: -200px -250px;
+}
+.bitBoardAdmins:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -200px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardUsers /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardUsers:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardUsers:hover{
+	background-position: -250px -250px;
+}
+.bitBoardUsers:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -250px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardProducts /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardProducts:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardProducts:hover{
+	background-position: -300px -150px;
+}
+.bitBoardProducts:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px 0px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardOrders /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardOrders:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardOrders:hover{
+	background-position: -300px -200px;
+}
+.bitBoardOrders:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px -50px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitBoardRights /* :link */{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardRights:visited{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+.bitBoardRights:hover{
+	background-position: -300px -250px;
+}
+.bitBoardRights:active{
+	background:url(../images/BPCMS_icons.png) no-repeat -300px -100px;
+	width:50px;
+	height:50px;
+	display:block;
+	text-indent:-9999px;
+}
+
+.bitItemDisabled {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.bitItemDisabled a {
+    cursor:default !important;
+}
+
+/*
+* --| 3. grid icons |---
+*/
+.bitConfigButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat ;
+	width:26px ;
+	height:26px ;
+	text-indent:-9999px ;
+	display:inline-block ;
+}
+.bitConfigButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitConfigButton:hover{
+	background-position: -26px 0px;
+}
+.bitConfigButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.bitDeleteButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -26px ;
+	width:26px ;
+	height:26px ;
+	text-indent:-9999px ;
+	display:inline-block ;
+}
+.bitDeleteButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -26px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitDeleteButton:hover{
+	background-position: -26px -26px;
+}
+.bitDeleteButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -26px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.bitLiveButton /* :link */, .bitPreviewButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -52px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitLiveButton:visited, .bitPreviewButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -52px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitLiveButton:hover, .bitPreviewButton:hover{
+	background-position: -26px -52px;
+}
+.bitLiveButton:active, .bitPreviewButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -52px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.bitEditButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -78px ;
+	width:26px ;
+	height:26px ;
+	text-indent:-9999px ;
+	display:inline-block ;
+}
+.bitEditButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -78px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitEditButton:hover{
+	background-position: -26px -78px;
+}
+.bitEditButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -78px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.bitCopyButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -104px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitCopyButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -104px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitCopyButton:hover{
+	background-position: -26px -104px;
+}
+.bitCopyButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -104px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.bitClearSearch /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -208px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitClearSearch:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -208px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitClearSearch:hover{
+	background-position: -26px -208px;
+}
+.bitClearSearch:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -208px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+/* lock icon */
+.bitTableAuthIcon /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -364px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+    outline:none;
+}
+.bitTableAuthIcon:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -364px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+    outline:none;
+}
+.bitTableAuthIcon:hover{
+	background-position: -26px -364px;
+}
+.bitTableAuthIcon:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -364px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.bitSelectButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -390px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+    outline:none;
+}
+.bitSelectButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -390px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+    outline:none;
+}
+.bitSelectButton:hover{
+	background-position: -26px -390px;
+}
+.bitSelectButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -390px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+/* .lock icon */
+/*
+* --| 4. messageBox icons |---
+*/
+.bitMessageBoxError{
+	background:url(../images/BPCMS_messageBoxIcons.png) no-repeat;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+    vertical-align:middle;
+}
+.bitMessageBoxError:hover{
+	background-position: -26px 0px;
+}
+
+.bitMessageBoxWarning{
+	background:url(../images/BPCMS_messageBoxIcons.png) no-repeat 0px -26px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitMessageBoxWarning:hover{
+	background-position: -26px -26px;
+}
+
+.bitMessageBoxInfo{
+	background:url(../images/BPCMS_messageBoxIcons.png) no-repeat 0px -52px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitMessageBoxInfo:hover{
+	background-position: -26px -52px;
+}
+
+.bitMessageBoxQuestion{
+	background:url(../images/BPCMS_messageBoxIcons.png) no-repeat 0px -78px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitMessageBoxQuestion:hover{
+	background-position: -26px -78px;
+}
+/*
+ * ---| 5. PageEdit buttons |---
+*/
+.bitSaveButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -286px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitSaveButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -286px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitSaveButton:hover{
+	background-position: -26px -286px;
+}
+.bitSaveButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -286px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.bitCancelButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -312px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitCancelButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -312px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitCancelButton:hover{
+	background-position: -26px -312px;
+}
+.bitCancelButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -312px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+
+.bitMaximalizeButton /* :link */{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -338px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitMaximalizeButton:visited{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -338px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
+.bitMaximalizeButton:hover{
+	background-position: -26px -338px;
+}
+.bitMaximalizeButton:active{
+	background:url(../images/BPCMS_page-icons.png) no-repeat 0px -338px;
+	width:26px;
+	height:26px;
+	text-indent:-9999px;
+	display:inline-block;
+}
